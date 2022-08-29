@@ -1,0 +1,69 @@
+section {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+section h2 {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0 0 4px;
+  vertical-align: top;
+}
+
+section p {
+  margin: 1em 0;
+}
+
+section a {
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+section ul {
+  margin: 1em 0;
+  padding-left: 30px;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+section .tip {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #66bf3c;
+  line-height: 12px;
+  border-radius: 1em;
+  background: #e7fdd8;
+  margin-right: 10px;
+  padding: 4px 12px;
+  vertical-align: top;
+}
+
+section .tip-wrapper {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section .tip-wrapper svg {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-top: 3px;
+  margin-right: 4px;
+  vertical-align: top;
+}
+
+section .tip-wrapper svg path {
+  fill: #1ea7fd;
+}
