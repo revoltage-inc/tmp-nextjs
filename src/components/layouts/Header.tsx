@@ -1,5 +1,5 @@
 import { Button } from '../elements/Button'
-import styles from '../../assets/css/layouts/Header.module.css'
+import styles from '@css/layouts/Header.module.css'
 
 type User = {
   name: string

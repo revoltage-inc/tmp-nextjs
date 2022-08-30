@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../assets/css/pages/Top.module.css'
+import styles from '@css/pages/Top.module.css'
 
 const Top: NextPage = () => {
   return (

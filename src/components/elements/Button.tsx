@@ -1,4 +1,4 @@
-import styles from '../../assets/css/elements/Button.module.css'
+import styles from '@css/elements/Button.module.css'
 
 interface ButtonProps {
   primary?: boolean
