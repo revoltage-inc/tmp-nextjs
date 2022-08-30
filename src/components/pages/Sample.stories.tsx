@@ -1,16 +1,16 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { within, userEvent } from '@storybook/testing-library'
-import { Page } from './Sample'
+import { Sample } from './Sample'
 
 export default {
   title: 'Pages/Sample',
-  component: Page,
+  component: Sample,
   parameters: {
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof Page>
+} as ComponentMeta<typeof Sample>
 
-const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />
+const Template: ComponentStory<typeof Sample> = (args) => <Sample {...args} />
 
 export const LoggedOut = Template.bind({})
 

@@ -6,7 +6,7 @@ type User = {
   name: string
 }
 
-export const Page = ({}) => {
+export const Sample = ({}) => {
   const [user, setUser] = useState<User>()
 
   return (
