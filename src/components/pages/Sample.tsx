@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Header } from '../layouts/Header'
-import './sample.css'
+import styles from '../../assets/css/pages/Sample.module.css'
 
 type User = {
   name: string
@@ -18,7 +18,7 @@ export const Sample = ({}) => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section>
+      <section className={styles.section}>
         <h2>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}

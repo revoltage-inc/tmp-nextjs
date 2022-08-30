@@ -1,5 +1,5 @@
-import { Button } from '../blocks/Button'
-import './header.css'
+import { Button } from '../elements/Button'
+import styles from '../../assets/css/layouts/Header.module.css'
 
 type User = {
   name: string
@@ -14,9 +14,15 @@ interface HeaderProps {
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
   <header>
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <div>
-        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          className={styles.svg}
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g fill="none" fillRule="evenodd">
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -32,12 +38,12 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1 className={styles.h1}>Acme</h1>
       </div>
       <div>
         {user ? (
           <>
-            <span className="welcome">
+            <span className={styles.welcome}>
               Welcome, <b>{user.name}</b>!
             </span>
             <Button size="small" onClick={onLogout} label="Log out" />
