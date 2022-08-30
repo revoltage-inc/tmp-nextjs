@@ -44,6 +44,7 @@
     "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-module-resolver": "^4.1.0",
     "cssnano": "^5.1.13",
+    "esbuild-register": "^3.3.3",
     "eslint": "^8.23.0",
     "eslint-config-next": "^12.2.5",
     "eslint-plugin-storybook": "^0.6.4",
