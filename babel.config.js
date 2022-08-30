@@ -5,7 +5,7 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          '@svg': './public/svg',
+          '@svg': './src/svg',
         },
       },
     ],

@@ -22,7 +22,10 @@ const config: Config = {
     return mergeConfig(config, {
       plugins: [],
       resolve: {
-        alias: [],
+        alias: [
+          { find: '@css/', replacement: join(__dirname, '../src/assets/css/') },
+          { find: '@svg/', replacement: join(__dirname, '../src/assets/svg/') },
+        ],
       },
       // HACK: STORYBOOK environment variable is not working, so set
       // https://github.com/storybookjs/storybook/pull/12997
