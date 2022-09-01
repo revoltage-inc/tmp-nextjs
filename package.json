@@ -71,12 +71,22 @@
     "trim": "^0.0.3",
     "trim-newlines": "^3.0.1"
   },
-  "volta": {
-    "node": "18.8.0",
-    "npm": "8.18.0"
-  },
   "browserslist": [
     "> 1% in JP",
     "last 2 versions"
+  ],
+  "volta": {
+    "node": "18.8.0",
+    "npm": "8.19.0"
+  },
+  "engines": {
+    "node": ">=18.8.0",
+    "npm": ">=8.19.0"
+  },
+  "keywords": [
+    "tmp-nextjs",
+    "next.js",
+    "tailwindcss",
+    "storybook"
   ]
 }

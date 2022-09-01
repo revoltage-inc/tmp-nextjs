@@ -15,7 +15,7 @@ This includes Storybook and TailwindCSS.
 ```zsh
 direnv allow
 
-volta install node@18.8.0 npm@8.18.0
+volta install node@18.8.0 npm@8.19.0
 
 npm install
 
