@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import { Header } from '../layouts/Header'
-import styles from '@css/pages/Sample.module.css'
+import React, { useState } from 'react'
+import { Header } from './Header'
+import './page.css'
 
 type User = {
   name: string
 }
 
-export const Sample = ({}) => {
+export const Page = () => {
   const [user, setUser] = useState<User>()
 
   return (
@@ -18,7 +18,7 @@ export const Sample = ({}) => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section className={styles.section}>
+      <section>
         <h2>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
@@ -35,7 +35,8 @@ export const Sample = ({}) => {
         <ul>
           <li>
             Use a higher-level connected component. Storybook helps you compose such data from the
-            `args` of child component stories
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            "args" of child component stories
           </li>
           <li>
             Assemble data in the page component from your services. You can mock these services out
