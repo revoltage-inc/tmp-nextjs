@@ -2,10 +2,10 @@
 name: "🐛 Bug"
 about: Create new bug report
 title: "🐛: {Set title here}"
-labels: Bug
+labels: bug
 ---
 
-## :bug: Bug Report
+## 🐛 Bug Report
 
 ### Bug content <!-- [required] -->
 
