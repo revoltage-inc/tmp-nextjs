@@ -2,13 +2,13 @@
 name: "❓ Question"
 about: Create new question
 title: "❓: {Set title here}"
-labels: Question
+labels: question
 ---
 
-## :question: Bug Report
+## ❓ Question
 
-### Bug content <!-- [required] -->
+### Question content <!-- [required] -->
 
 <!--
-Describe bug content here.
+Describe question content here.
 -->

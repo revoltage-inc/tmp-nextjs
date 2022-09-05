@@ -2,10 +2,10 @@
 name: "📝 Task"
 about: Create new task
 title: "📝 : {Set title here}"
-labels: Task
+labels: task
 ---
 
-## :memo: Task
+## 📝 Task
 
 ### Task Content <!-- [required] -->
 
