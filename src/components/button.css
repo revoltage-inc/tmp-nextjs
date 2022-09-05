@@ -1,11 +1,11 @@
 .storybook-button {
-  display: inline-block;
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  line-height: 1;
   border: 0;
   border-radius: 3em;
   cursor: pointer;
+  display: inline-block;
+  line-height: 1;
 }
 .storybook-button--primary {
   color: white;

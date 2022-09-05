@@ -1,13 +1,13 @@
-import React from 'react'
-import { Header } from '../layouts/Header'
-import './sample.css'
+import React, { useState } from 'react'
+import { Header } from './Header'
+import './page.css'
 
 type User = {
   name: string
 }
 
-export const Page: React.VFC = () => {
-  const [user, setUser] = React.useState<User>()
+export const Page = () => {
+  const [user, setUser] = useState<User>()
 
   return (
     <article>
@@ -35,7 +35,8 @@ export const Page: React.VFC = () => {
         <ul>
           <li>
             Use a higher-level connected component. Storybook helps you compose such data from the
-            `args` of child component stories
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            "args" of child component stories
           </li>
           <li>
             Assemble data in the page component from your services. You can mock these services out

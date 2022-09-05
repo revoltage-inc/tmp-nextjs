@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2022",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,12 +15,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@svg*": [
-        "public/svg*"
-      ]
+      "@css*": [ "src/assets/css*"],
+      "@svg*": [ "src/assets/svg*"]
     },
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", ".history", ".next"]
 }
