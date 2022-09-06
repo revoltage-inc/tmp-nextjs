@@ -26,7 +26,7 @@ npm install
 
 ## Usage
 
-After completing [Setting](/#setting), run develop server with following command.  
+After completing [Setting](./README.md#setting), run develop server with following command.  
 
 ```zsh
 npm run dev
