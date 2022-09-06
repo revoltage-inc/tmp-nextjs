@@ -3,18 +3,18 @@
 This repository is template for Next.js.  
 This includes Storybook and TailwindCSS.  
 
-## Setting
+<h2 id="setting">Setting</h2>
 
-### Premise
+<h3>Premise</h3>
 
 - [Install VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 - [Install Workspace recommended VSCode extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 - [Install Volta](https://docs.volta.sh/guide/getting-started)
 - [Install direnv](https://github.com/direnv/direnv)
 
-### Execution environment setting
+<h3>Create environment</h3>
 
-Install Node.js and npm and packages with following command.  
+Create environment with following command.  
 
 ```zsh
 direnv allow
@@ -26,7 +26,7 @@ npm install
 
 ## Usage
 
-After completing Setting], run develop server with following command.  
+After completing [Setting](/#setting), run develop server with following command.  
 
 ```zsh
 npm run dev
