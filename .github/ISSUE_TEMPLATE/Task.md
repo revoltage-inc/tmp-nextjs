@@ -1,7 +1,7 @@
 ---
 name: "📝 Task"
 about: Create new task
-title: "📝 : {Set title here}"
+title: ""
 labels: task
 ---
 
