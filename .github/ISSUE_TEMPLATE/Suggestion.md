@@ -1,11 +1,11 @@
 ---
-name: "✋ Suggestion"
+name: "🚀 Suggestion"
 about: Create new Suggestion
-title: "✋ {Set title here}"
+title: ""
 labels: suggestion
 ---
 
-## ✋ Suggestion
+## 🚀 Suggestion
 
 ### Suggestion content <!-- [required] -->
 

@@ -1,11 +1,11 @@
 ---
-name: "🐛 Bug"
+name: "🐞 Bug"
 about: Create new bug report
-title: "🐛: {Set title here}"
+title: ""
 labels: bug
 ---
 
-## 🐛 Bug Report
+## 🐞 Bug Report
 
 ### Bug content <!-- [required] -->
 
