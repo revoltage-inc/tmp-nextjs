@@ -16,19 +16,14 @@ module.exports = {
       colors: {
         main: colors.white,
       },
-      screens: {
-        xs: '320px',
-      },
-      gridTemplateColumns: {
-        'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
-        'auto-fill': 'repeat(auto-fill, minmax(0, 1fr))',
-      },
-      gridTemplateRows: {
-        'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
-        'auto-fill': 'repeat(auto-fill, minmax(0, 1fr))',
-      },
     },
   },
-  plugins: [require('@tailwindcss/forms'), plugin(({ addVariant, e }) => {})],
+  plugins: [
+    require('@tailwindcss/forms'),
+    plugin(({ addVariant }) => {
+      addVariant('not-first', '&:not(:first-child)')
+      addVariant('not-last', '&:not(:last-child)')
+    }),
+  ],
   important: false,
 }
