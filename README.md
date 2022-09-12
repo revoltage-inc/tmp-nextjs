@@ -10,7 +10,6 @@ This includes Storybook and TailwindCSS.
 - [Install VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 - [Install Workspace recommended VSCode extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 - [Install Volta](https://docs.volta.sh/guide/getting-started)
-- [Install direnv](https://github.com/direnv/direnv)
 
 <h3>Create environment</h3>
 
