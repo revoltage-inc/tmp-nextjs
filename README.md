@@ -24,6 +24,12 @@ volta install node@18.8.0 npm@8.19.0
 npm install
 ```
 
+Then create environment file with following command.  
+
+```zsh
+cp .env.template .env
+```
+
 ## Usage
 
 After completing [Setting](./README.md#setting), run develop server with following command.  
@@ -48,6 +54,7 @@ npm run dev
 - [Vite](https://ja.vitejs.dev/)
 - [TailwindCSS](https://tailwindui.com/)
 - [tRPC](https://trpc.io/)
+- [Prisma](https://www.prisma.io/)
 
 ## License
 
