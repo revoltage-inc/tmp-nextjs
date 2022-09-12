@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.2.0...v1.2.1) (2022-09-12)
+
+
+### Bug Fixes
+
+* 28 .envrcファイルを削除 ([d6b176b](https://github.com/revoltage-inc/tmp-nextjs/commit/d6b176b4698c0c2cdff3144f5eb71bc0603ee265))
+
 ## [1.1.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.1.1...v1.1.2) (2022-09-05)
 
 
