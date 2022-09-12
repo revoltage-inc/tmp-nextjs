@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.2.1...v1.2.2) (2022-09-12)
+
+
+### Bug Fixes
+
+* 28 不要なdirenvコマンドを削除 ([d92dafc](https://github.com/revoltage-inc/tmp-nextjs/commit/d92dafc8612f84b3ff4a5b92bbcf114d231f8ca2))
+
 ## [1.2.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.2.0...v1.2.1) (2022-09-12)
 
 
