@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.2.2...v1.2.3) (2022-09-13)
+
+
+### Bug Fixes
+
+* 33 パッケージを更新 ([ace0ace](https://github.com/revoltage-inc/tmp-nextjs/commit/ace0ace7687a859ab862d8ea136dca63b3e9baa1))
+
 ## [1.2.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.2.1...v1.2.2) (2022-09-12)
 
 
