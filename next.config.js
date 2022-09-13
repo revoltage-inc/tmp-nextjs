@@ -5,7 +5,7 @@ module.exports = {
   swcMinify: true,
   reactStrictMode: true,
   images: {
-    formats: ['image/webp'],
+    formats: ['image/avif', 'image/webp'],
     disableStaticImages: true,
   },
   webpack: (config) => {
