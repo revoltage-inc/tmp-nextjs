@@ -1,7 +1,11 @@
-# tmp-nextjs
+# tmp-nextjs(α)
 
 This repository is template for Next.js.  
 This includes Storybook and TailwindCSS.  
+
+> **Warning**  
+> This template is still in alpha stage.  
+> Beware destructive changes.  
 
 <h2 id="setting">Setting</h2>
 
