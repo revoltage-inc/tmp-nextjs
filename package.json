@@ -14,7 +14,7 @@
     "update": "npx ncu -u && npm install"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.1",
+    "@headlessui/react": "^1.7.2",
     "@hookform/resolvers": "^2.9.8",
     "@prisma/client": "^4.3.1",
     "@trpc/client": "^9.27.2",
@@ -78,10 +78,7 @@
   "overrides": {
     "css-select": "^4.0.0",
     "got": "^11.8.5",
-    "glob-parent": "^6.0.1",
-    "terser": "^5.14.2",
-    "trim": "^0.0.3",
-    "trim-newlines": "^3.0.1"
+    "trim": "^0.0.3"
   },
   "browserslist": [
     "> 1% in JP",
