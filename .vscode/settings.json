@@ -100,6 +100,7 @@
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
+    "WARN",
     "FIXME",
     "TODO",
     "XXX",
