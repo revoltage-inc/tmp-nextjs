@@ -101,7 +101,7 @@
     "BUG",
     "HACK",
     "WARN",
-    "FIXME",
+    "FIX",
     "TODO",
     "XXX",
     "[ ]",
