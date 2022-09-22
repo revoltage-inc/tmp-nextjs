@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint && stylelint src/assets/css/**/*.css --fix --config stylelint.config.js",
     "sb": "npx sb dev -p 6006",
     "update:sb": "npx sb@future upgrade --prerelease",
     "update": "npx ncu -u && npm install"
