@@ -26,9 +26,6 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.36.0",
     "react-icons": "^4.4.0",
-    "react-query": "^3.39.2",
-    "react-scripts": "^5.0.1",
-    "react-select": "^5.4.0",
     "zod": "^3.19.1"
   },
   "devDependencies": {
@@ -62,12 +59,10 @@
     "npm-check-updates": "^16.2.1",
     "postcss": "^8.4.16",
     "postcss-import": "^15.0.0",
-    "postcss-inline-svg": "^5.0.0",
     "postcss-preset-env": "^7.8.2",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "prisma": "^4.3.1",
-    "prop-types": "^15.8.1",
     "storybook": "^7.0.0-alpha.33",
     "storybook-dark-mode": "^1.1.2",
     "stylelint": "^14.12.1",

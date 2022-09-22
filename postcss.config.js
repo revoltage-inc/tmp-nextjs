@@ -3,7 +3,6 @@ module.exports = {
     'tailwindcss/nesting': 'postcss-nesting',
     tailwindcss: {},
     'postcss-import': {},
-    'postcss-inline-svg': {},
     'postcss-preset-env': {
       stage: 3,
       features: {
