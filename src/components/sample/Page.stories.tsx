@@ -1,4 +1,4 @@
-import { Story, Meta } from '@storybook/react'
+import { StoryObj, Meta } from '@storybook/react'
 import { within, userEvent } from '@storybook/testing-library'
 import { Page } from './Page'
 
@@ -9,7 +9,7 @@ export default {
   },
 } as Meta<typeof Page>
 
-export const LoggedIn: Story<typeof Page> = {
+export const LoggedIn: StoryObj<typeof Page> = {
   args: {},
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
@@ -18,6 +18,6 @@ export const LoggedIn: Story<typeof Page> = {
   },
 }
 
-export const LoggedOut: Story<typeof Page> = {
+export const LoggedOut: StoryObj<typeof Page> = {
   args: {},
 }
