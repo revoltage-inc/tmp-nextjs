@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.2...v1.3.3) (2022-10-17)
+
+
+### Bug Fixes
+
+* 105 StoryをStoryObjに変更 ([f4bf3a4](https://github.com/revoltage-inc/tmp-nextjs/commit/f4bf3a4d2ea963527c2c538f5a8f0ca990618574))
+
 ## [1.3.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.0...v1.3.1) (2022-09-24)
 
 
