@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.3...v1.3.4) (2022-10-18)
+
+
+### Bug Fixes
+
+* 108 Reactのdefault import削除 ([830b076](https://github.com/revoltage-inc/tmp-nextjs/commit/830b0767b30893b4fe90db76433adce67f3ab03e))
+
 ## [1.3.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.2...v1.3.3) (2022-10-17)
 
 
