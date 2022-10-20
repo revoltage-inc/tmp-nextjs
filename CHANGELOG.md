@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.4...v1.3.5) (2022-10-20)
+
+
+### Bug Fixes
+
+* 119 slateのカラーを削除 ([3a38b78](https://github.com/revoltage-inc/tmp-nextjs/commit/3a38b78bb7b76f7c91b71da4adc220cba4554d9c))
+* 119 Storybookの背景色を設定 ([af1dbc0](https://github.com/revoltage-inc/tmp-nextjs/commit/af1dbc0eafeda5f0535441ad04f693f1268682c4))
+* 119 パッケージを更新 ([3c1c031](https://github.com/revoltage-inc/tmp-nextjs/commit/3c1c031e50a084a24cca487c15812199108ba8e0))
+
 ## [1.3.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.3...v1.3.4) (2022-10-18)
 
 
