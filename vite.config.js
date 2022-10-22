@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [svgr({ exportAsDefault: true })],
   resolve: {
     alias: {
+      '@style': resolve(__dirname, './src/style/'),
       '@css': resolve(__dirname, './public/css/'),
       '@svg': resolve(__dirname, './public/svg/'),
     },
