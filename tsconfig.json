@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@css*": [ "public/css*"],
-      "@svg*": [ "public/svg*"]
+      "@svg*": [ "src/assets/svg*"]
     },
     "incremental": true
   },
