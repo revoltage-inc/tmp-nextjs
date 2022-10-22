@@ -1,4 +1,4 @@
-import '../assets/css/globals.css'
+import '@css/globals.css'
 import type { AppProps } from 'next/app'
 // import type { NextWebVitalsMetric } from 'next/app'
 
