@@ -1,6 +1,6 @@
 import { themes } from '@storybook/theming'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-import '../src/assets/css/globals.css'
+import '../public/css/globals.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

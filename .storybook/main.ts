@@ -45,8 +45,8 @@ const config: StorybookConfig = {
   //     config.resolve.alias = {
   //       ...config.resolve.alias,
   //       ...{
-  //         '@css': resolve(__dirname, '../src/assets/css/'),
-  //         '@svg': resolve(__dirname, '../src/assets/svg/'),
+  //         '@css': resolve(__dirname, '../public/css/'),
+  //         '@svg': resolve(__dirname, '../public/svg/'),
   //       },
   //     }
   //   }
