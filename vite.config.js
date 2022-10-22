@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [svgr({ exportAsDefault: true })],
   resolve: {
     alias: {
-      '@css': resolve(__dirname, './src/assets/css/'),
-      '@svg': resolve(__dirname, './src/assets/svg/'),
+      '@css': resolve(__dirname, './public/css/'),
+      '@svg': resolve(__dirname, './public/svg/'),
     },
   },
   // HACK: STORYBOOK environment variable is not working, so set
