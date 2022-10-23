@@ -1,6 +1,17 @@
 import { themes } from '@storybook/theming'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import '../src/assets/css/globals.css'
+import Image from 'next/image'
+
+// @ts-ignore
+Image.propTypes = {
+  unoptimized: true,
+}
+
+// @ts-ignore
+Image.defaultProps = {
+  unoptimized: true,
+}
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
