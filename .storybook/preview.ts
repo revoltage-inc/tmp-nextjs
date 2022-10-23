@@ -4,11 +4,6 @@ import '../src/assets/css/globals.css'
 import Image from 'next/image'
 
 // @ts-ignore
-Image.propTypes = {
-  unoptimized: true,
-}
-
-// @ts-ignore
 Image.defaultProps = {
   unoptimized: true,
 }
