@@ -18,8 +18,9 @@ module.exports = {
     config.resolve.alias = {
       ...config.resolve.alias,
       ...{
-        '@css': path.resolve(__dirname, 'src/assets/css/'),
-        '@svg': path.resolve(__dirname, 'src/assets/svg/'),
+        '@assets': path.resolve(__dirname, '../src/assets/'),
+        '@components': path.resolve(__dirname, '../src/components/'),
+        '@libs': path.resolve(__dirname, '../src/libs/'),
       },
     }
 
