@@ -15,10 +15,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@style*": [ "src/styles/*" ],
-      "@css*": [ "public/css*"],
-      "@svg*": [ "src/assets/svg*"],
-      "@lib*": [ "src/libs*"]
+      "@assets*": ["src/assets*"],
+      "@components*": ["src/components*"],
+      "@libs*": ["src/libs*"]
     },
     "incremental": true
   },
