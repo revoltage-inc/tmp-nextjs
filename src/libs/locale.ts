@@ -5,5 +5,5 @@ import ja from '../locales/ja'
 export const useLocale = () => {
   const { locale } = useRouter()
   const text = locale === 'en' ? en : ja
-  return { text }
+  return { locale, text }
 }
