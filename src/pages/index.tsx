@@ -1,3 +1,4 @@
+import { useWindow } from '@lib/window'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -5,10 +6,18 @@ import styles from '@style/pages/Top.module.css'
 import IconSVG from '@svg/icon.svg'
 
 const Top: NextPage = () => {
+  const { width } = useWindow()
+
   return (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
+        <meta
+          name="viewport"
+          content={`width=${
+            width > 375 ? 'device-width' : '375'
+          }, height=device-height,initial-scale=1`}
+        />
       </Head>
 
       <main className={styles.main}>
