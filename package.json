@@ -38,7 +38,7 @@
     "@storybook/node-logger": "^7.0.0-alpha.40",
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^7.0.0-alpha.40",
-    "@storybook/react-vite": "^7.0.0-alpha.40",
+    "@storybook/react-vite": "^7.0.0-alpha.42",
     "@storybook/react-webpack5": "^7.0.0-alpha.40",
     "@storybook/testing-library": "^0.0.14-next.0",
     "@storybook/theming": "^7.0.0-alpha.40",
