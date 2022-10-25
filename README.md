@@ -20,7 +20,7 @@ This includes Storybook and TailwindCSS.
 Create environment with following command.  
 
 ```zsh
-volta install node@18.9.0 npm@8.19.1
+volta install node@18.11.0 npm@9.0.0
 
 npm install
 ```
