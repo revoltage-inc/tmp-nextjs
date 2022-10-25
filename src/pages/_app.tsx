@@ -1,4 +1,4 @@
-import '../assets/css/globals.css'
+import '@assets/css/globals.css'
 import type { AppProps } from 'next/app'
 // import type { NextWebVitalsMetric } from 'next/app'
 
@@ -6,8 +6,6 @@ import type { AppProps } from 'next/app'
 //   console.log(metric)
 // }
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
-
-export default MyApp

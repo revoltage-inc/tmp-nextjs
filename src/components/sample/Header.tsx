@@ -1,6 +1,6 @@
 import { Button } from './Button'
 import './header.css'
-import IconSVG from '@svg/icon.svg'
+import IconSVG from '@assets/svg/icon.svg'
 
 type User = {
   name: string
