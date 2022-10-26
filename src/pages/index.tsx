@@ -2,7 +2,7 @@ import { useWindow } from '@libs/window'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@assets/css/pages/Top.module.css'
+import styles from '@assets/css/pages/top.module.css'
 import IconSVG from '@assets/svg/icon.svg'
 
 const Top: NextPage = () => {
