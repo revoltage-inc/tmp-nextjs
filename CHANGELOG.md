@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.2...v1.6.3) (2022-10-26)
+
+
+### Bug Fixes
+
+* 140 Firebaseのデプロイ時にNext.jsのビルドが失敗する問題を修正 ([9495a07](https://github.com/revoltage-inc/tmp-nextjs/commit/9495a07ed10130e27ce497045bb71d93cc676085))
+* 140 パッケージを更新 ([536a764](https://github.com/revoltage-inc/tmp-nextjs/commit/536a7647b6dbbae3006ed98e8ebcded570b483d0))
+
 ## [1.6.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.0...v1.6.1) (2022-10-26)
 
 
