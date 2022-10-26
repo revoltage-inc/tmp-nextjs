@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.5.0...v1.5.1) (2022-10-26)
+
+
+### Bug Fixes
+
+* 130 babelの設定ファイルを削除 ([d5769cb](https://github.com/revoltage-inc/tmp-nextjs/commit/d5769cb3973c867ef94a76813630c3532169b428))
+* 130 next.config.jsのexportの記述を修正 ([22d9f3f](https://github.com/revoltage-inc/tmp-nextjs/commit/22d9f3f91fc7386b88d54713f928ca2d02a8de33))
+* 130 パッケージを更新 ([66e6015](https://github.com/revoltage-inc/tmp-nextjs/commit/66e601592b5d68f10b5e6d0a04176fb710fe8e42))
+
 ## [1.3.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.3.4...v1.3.5) (2022-10-20)
 
 
