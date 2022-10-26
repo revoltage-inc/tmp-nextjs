@@ -2,14 +2,14 @@ import { useWindow } from '@libs/window'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@assets/css/pages/Top.module.css'
+import styles from '@assets/css/pages/top.module.css'
 import IconSVG from '@assets/svg/icon.svg'
 
-const Top: NextPage = () => {
+export const Top: NextPage = () => {
   const { width } = useWindow()
 
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <meta
@@ -66,7 +66,7 @@ const Top: NextPage = () => {
           </span>
         </a>
       </footer>
-    </div>
+    </>
   )
 }
 

@@ -1,16 +1,30 @@
+import { useWindow } from '@libs/window'
 import { useState } from 'react'
-import { Header } from './Header'
-import './page.css'
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import { Header } from '@components/sample/header'
+import '@assets/css/pages/sample.css'
 
 type User = {
   name: string
 }
 
-export const Page = () => {
+export const Sample: NextPage = () => {
+  const { width } = useWindow()
   const [user, setUser] = useState<User>()
 
   return (
-    <article>
+    <>
+      <Head>
+        <title>Storybook Sample page</title>
+        <meta
+          name="viewport"
+          content={`width=${
+            width > 375 ? 'device-width' : '375'
+          }, height=device-height,initial-scale=1`}
+        />
+      </Head>
+
       <Header
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
@@ -18,7 +32,7 @@ export const Page = () => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section>
+      <main>
         <h2>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
@@ -67,7 +81,9 @@ export const Page = () => {
           </svg>
           Viewports addon in the toolbar
         </div>
-      </section>
-    </article>
+      </main>
+    </>
   )
 }
+
+export default Sample
