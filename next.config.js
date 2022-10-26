@@ -1,7 +1,7 @@
 const path = require('path')
 
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   swcMinify: true,
   reactStrictMode: true,
   images: {
@@ -27,3 +27,5 @@ module.exports = {
     return config
   },
 }
+
+module.exports = nextConfig
