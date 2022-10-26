@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Header } from '@components/sample/header'
-import '@assets/css/pages/sample.css'
+import { Header } from '@components/storybook/header'
+import '@assets/css/pages/storybook.css'
 
 type User = {
   name: string

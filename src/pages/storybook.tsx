@@ -1,9 +1,9 @@
 import { useWindow } from '@libs/window'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Page } from '@components/sample/page'
+import { Page } from '@components/storybook/page'
 
-export const Sample: NextPage = () => {
+export const Storybook: NextPage = () => {
   const { width } = useWindow()
 
   return (
@@ -23,4 +23,4 @@ export const Sample: NextPage = () => {
   )
 }
 
-export default Sample
+export default Storybook
