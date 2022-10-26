@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.0...v1.6.1) (2022-10-26)
+
+
+### Bug Fixes
+
+* 135 pagesディレクトリをStorybookの設定に追加 ([8f75fc9](https://github.com/revoltage-inc/tmp-nextjs/commit/8f75fc9725464440106124ca05f0d36af462408f))
+* 135 sample.cssのパスを修正 ([aa94a6c](https://github.com/revoltage-inc/tmp-nextjs/commit/aa94a6c6cb0659325c50a038ab57b4367332def9))
+* 135 sampleのコンポーネントを追加 ([d33a8cd](https://github.com/revoltage-inc/tmp-nextjs/commit/d33a8cd4c76a986e7e28812850b8050e6e3fcc90))
+* 135 トップページのstoriesを追加 ([0c2c652](https://github.com/revoltage-inc/tmp-nextjs/commit/0c2c652f9fa229a61aa414937259bb18d0613937))
+* 135 ファイル名の接頭の文字を小文字に修正 ([b74fcfb](https://github.com/revoltage-inc/tmp-nextjs/commit/b74fcfb92cfb86c3272a9cdd12638d34d94c9082))
+* 135 一旦削除 ([2e0c587](https://github.com/revoltage-inc/tmp-nextjs/commit/2e0c587e7eb66d5a62b2dfafb6ebf250f0bdeadc))
+* 135 一旦削除 ([cf14f2b](https://github.com/revoltage-inc/tmp-nextjs/commit/cf14f2bbd70184a9da51eab2095b04348f2bd6ad))
+* 135 不要なCSSを削除 ([58bd996](https://github.com/revoltage-inc/tmp-nextjs/commit/58bd996ab4d701959a172cebfb2b50263f8c17d7))
+
 ## [1.5.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.5.0...v1.5.1) (2022-10-26)
 
 
