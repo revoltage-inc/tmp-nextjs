@@ -9,7 +9,7 @@ const Top: NextPage = () => {
   const { width } = useWindow()
 
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <meta
@@ -66,7 +66,7 @@ const Top: NextPage = () => {
           </span>
         </a>
       </footer>
-    </div>
+    </>
   )
 }
 
