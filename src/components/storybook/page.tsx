@@ -1,30 +1,16 @@
-import { useWindow } from '@libs/window'
 import { useState } from 'react'
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { Header } from '@components/sample/header'
-import '@assets/css/pages/sample.css'
+import { Header } from '@components/storybook/header'
+import '@assets/css/pages/storybook.css'
 
 type User = {
   name: string
 }
 
-export const Sample: NextPage = () => {
-  const { width } = useWindow()
+export const Page = () => {
   const [user, setUser] = useState<User>()
 
   return (
     <>
-      <Head>
-        <title>Storybook Sample page</title>
-        <meta
-          name="viewport"
-          content={`width=${
-            width > 375 ? 'device-width' : '375'
-          }, height=device-height,initial-scale=1`}
-        />
-      </Head>
-
       <Header
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
@@ -85,5 +71,3 @@ export const Sample: NextPage = () => {
     </>
   )
 }
-
-export default Sample
