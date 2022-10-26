@@ -3,7 +3,7 @@ import { useState } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Header } from '@components/sample/header'
-import '@assets/css/pages/page.css'
+import '@assets/css/pages/sample.css'
 
 type User = {
   name: string
