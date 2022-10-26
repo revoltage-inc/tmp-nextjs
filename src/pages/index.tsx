@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles from '@assets/css/pages/top.module.css'
 import IconSVG from '@assets/svg/icon.svg'
 
-const Top: NextPage = () => {
+export const Top: NextPage = () => {
   const { width } = useWindow()
 
   return (
