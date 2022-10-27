@@ -31,6 +31,9 @@ Then create environment file with following command.
 cp .env.template .env
 ```
 
+Environment variables in the .env file
+`BASIC_AUTH_USERNAME` and `BASIC_AUTH_PASSWORD` with any user and password to set up Basic Authentication.
+
 ## Usage
 
 After completing [Setting](./README.md#setting), run develop server with following command.  
