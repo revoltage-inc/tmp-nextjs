@@ -4,6 +4,7 @@ const path = require('path')
 const nextConfig = {
   swcMinify: true,
   reactStrictMode: true,
+  poweredByHeader: false,
   images: {
     formats: ['image/avif', 'image/webp'],
     disableStaticImages: true,
