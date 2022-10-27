@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.3...v1.6.4) (2022-10-27)
+
+
+### Bug Fixes
+
+* 143 Basic認証に対応 ([b260f44](https://github.com/revoltage-inc/tmp-nextjs/commit/b260f44ebfb364c2da4a3128422cdb1496cf26f0))
+* 143 poweredByHeaderの設定を追加 ([c49e560](https://github.com/revoltage-inc/tmp-nextjs/commit/c49e560f144802c8a0103ab3376e65cb41184aa3))
+* 143 パッケージを更新 ([8deaaa1](https://github.com/revoltage-inc/tmp-nextjs/commit/8deaaa18e36b7f1f03a9c567e27bb4ad52204f64))
+
 ## [1.6.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.2...v1.6.3) (2022-10-26)
 
 
