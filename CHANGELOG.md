@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.5...v1.6.6) (2022-11-05)
+
+
+### Bug Fixes
+
+* 42 StorybookをWebpackでビルド時にSVGファイルがファイルローダーに認識されてしまう問題を修正 ([14f4cbe](https://github.com/revoltage-inc/tmp-nextjs/commit/14f4cbe6068977263b6b396e830f5a44692ededa))
+
 ## [1.6.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.3...v1.6.4) (2022-10-27)
 
 
