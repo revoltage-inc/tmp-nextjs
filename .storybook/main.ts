@@ -23,21 +23,17 @@ const config: StorybookConfig = {
   // webpackFinal: (config) => {
   //   if (config.module?.rules) {
   //     config.module.rules = config.module.rules.map((rule) => {
-  //       if (rule !== '...' && rule.oneOf) {
-  //         rule.oneOf = rule.oneOf.map((oneOfRule) => {
-  //           // HACK: Override SVG loader to not use file-loader
-  //           if (String(oneOfRule.test) === String(/\.svg$/)) {
-  //             return {
-  //               test: /\.svg$/,
-  //               use: ['@svgr/webpack'],
-  //               issuer: /\.tsx$/,
-  //             }
-  //           }
-  //           return oneOfRule
-  //         })
+  //       // HACK: Override SVG loader to not use file-loader
+  //       if (rule !== '...' && rule.test?.toString().indexOf('svg') !== -1) {
+  //         rule.exclude = /\.svg$/
   //       }
-
   //       return rule
+  //     })
+
+  //     config.module.rules.push({
+  //       test: /\.svg$/,
+  //       use: ['@svgr/webpack'],
+  //       issuer: /\.tsx$/,
   //     })
   //   }
 
