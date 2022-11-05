@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.7](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.6...v1.6.7) (2022-11-05)
+
+
+### Bug Fixes
+
+* 39 Babelの設定ファイルを追加 ([ac5a7f0](https://github.com/revoltage-inc/tmp-nextjs/commit/ac5a7f0a9825353750982284ed5bfeb678de16c2))
+* 39 lockファイルを更新 ([22e0658](https://github.com/revoltage-inc/tmp-nextjs/commit/22e0658f7a3989f0a63be3e4c5d991b3c5841436))
+
 ## [1.6.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.5...v1.6.6) (2022-11-05)
 
 
