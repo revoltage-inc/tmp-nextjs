@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.8](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.7...v1.6.8) (2022-11-08)
+
+
+### Bug Fixes
+
+* 154 storybook-addon-next-routerを導入 ([c6b4940](https://github.com/revoltage-inc/tmp-nextjs/commit/c6b49405ec641534c32644b3f45ac33c4b091c95))
+* 154 パッケージを更新 ([b013d36](https://github.com/revoltage-inc/tmp-nextjs/commit/b013d36016a22e203fe9e992cb613a5ed1138e21))
+
 ## [1.6.7](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.6...v1.6.7) (2022-11-05)
 
 
