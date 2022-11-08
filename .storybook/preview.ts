@@ -2,6 +2,7 @@ import { themes } from '@storybook/theming'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import '../src/assets/css/globals.css'
 import Image from 'next/image'
+import { RouterContext } from 'next/dist/shared/lib/router-context'
 
 // @ts-ignore
 Image.defaultProps = {
@@ -40,5 +41,11 @@ export const parameters = {
         value: '#f3f4f6',
       },
     ],
+  },
+  nextRouter: {
+    Provider: RouterContext.Provider,
+    push(url: string) {
+      console.log('Route page: ' + url)
+    },
   },
 }
