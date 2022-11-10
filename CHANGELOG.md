@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.9](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.8...v1.6.9) (2022-11-10)
+
+
+### Bug Fixes
+
+* 158 パッケージを更新 ([f74d5e7](https://github.com/revoltage-inc/tmp-nextjs/commit/f74d5e74caf68b5999daa496bfe138490c0cb5a2))
+* 158 不要なパッケージを削除 ([9eab909](https://github.com/revoltage-inc/tmp-nextjs/commit/9eab909ea6703f5cb3b644d07c883a6d4962abec))
+
 ## [1.6.8](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.6.7...v1.6.8) (2022-11-08)
 
 
