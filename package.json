@@ -80,8 +80,8 @@
     "last 2 versions"
   ],
   "volta": {
-    "node": "18.12.0",
-    "npm": "9.0.0"
+    "node": "18.12.1",
+    "npm": "9.1.2"
   },
   "engines": {
     "node": ">=18.12.0",
