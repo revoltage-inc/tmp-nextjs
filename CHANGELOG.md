@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.1...v1.7.2) (2022-11-25)
+
+
+### Bug Fixes
+
+* 165 enginesを修正 ([eee60f7](https://github.com/revoltage-inc/tmp-nextjs/commit/eee60f7503115d5b29ecabc38a5792429cb402eb))
+* 165 パッケージを更新 ([c88bfd1](https://github.com/revoltage-inc/tmp-nextjs/commit/c88bfd177de4431567b8ee9a69f9a464b395d579))
+
 ## [1.7.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.0...v1.7.1) (2022-11-24)
 
 
