@@ -4,10 +4,7 @@
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "all",
-  "editor.rulers": [
-    100,
-    120
-  ],
+  "editor.rulers": [100, 120],
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -23,7 +20,7 @@
   "[html]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "html.format.wrapLineLength": 0,
   "[markdown]": {
@@ -31,7 +28,7 @@
     "editor.insertSpaces": true,
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "markdownlint.config": {
     "MD033": false,
@@ -41,12 +38,10 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "css.validate": false,
-  "stylelint.validate": [
-    "css",
-  ],
+  "stylelint.validate": ["css"],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
@@ -59,7 +54,7 @@
       "source.fixAll": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[typescript]": {
     "editor.tabSize": 2,
@@ -70,7 +65,7 @@
       "source.fixAll": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[typescriptreact]": {
     "editor.tabSize": 2,
@@ -81,24 +76,15 @@
       "source.fixAll": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[json]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "WARN",
-    "FIX",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "WARN", "FIX", "TODO", "XXX", "[ ]", "[x]"],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "files.associations": {
     "*.md": "markdown"
