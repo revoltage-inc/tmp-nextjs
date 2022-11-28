@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.7.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.3...v1.7.4) (2022-11-28)
+
+
+### Bug Fixes
+
+* 173 VSCodeの設定をフォーマット ([01db1a8](https://github.com/revoltage-inc/tmp-nextjs/commit/01db1a8a702d66c3527a0f68b48374991372f486))
+* 173 ファイル末尾を改行するようにVSCodeの設定を追加 ([a28957b](https://github.com/revoltage-inc/tmp-nextjs/commit/a28957bbdc5a872b27cf57560f7e56f6e84abcd4))
+* 173 リネーム ([188372e](https://github.com/revoltage-inc/tmp-nextjs/commit/188372e4a64e82d3b436fd092b5469319b84f065))
+
 ## [1.7.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.2...v1.7.3) (2022-11-28)
 
 
