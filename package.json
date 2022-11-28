@@ -20,7 +20,7 @@
     "@trpc/client": "^10.1.0",
     "@trpc/next": "^10.1.0",
     "@trpc/react": "^9.27.4",
-    "@trpc/server": "^10.1.0",
+    "@trpc/server": "^10.4.1",
     "next": "^13.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
