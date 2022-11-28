@@ -44,19 +44,11 @@
     "editor.formatOnSave": true,
   },
   "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
   "stylelint.validate": [
     "css",
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
-  },
-  "[scss]": {
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
   },
   "[javascript]": {
     "editor.tabSize": 2,
