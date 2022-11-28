@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.7.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.2...v1.7.3) (2022-11-28)
+
+
+### Bug Fixes
+
+* 173 storybook-dark-modeを削除 ([a73a0ee](https://github.com/revoltage-inc/tmp-nextjs/commit/a73a0ee68725eff320af1c4b98cafe8cef94d4cb))
+* 173 パッケージを更新 ([e654e66](https://github.com/revoltage-inc/tmp-nextjs/commit/e654e660d31e46bd7ca8457cc7d8a1f47b47059c))
+* 173 不要なVSCodeの設定を削除 ([b36819d](https://github.com/revoltage-inc/tmp-nextjs/commit/b36819deaf8acb9ba9118d268ca26ad991a72ede))
+
 ## [1.7.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.1...v1.7.2) (2022-11-25)
 
 
