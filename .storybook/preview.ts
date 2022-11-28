@@ -1,4 +1,3 @@
-import { themes } from '@storybook/theming'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import '../src/assets/css/globals.css'
 import Image from 'next/image'
@@ -16,10 +15,6 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
-  },
-  darkMode: {
-    dark: { ...themes.dark, appBg: 'black' },
-    light: { ...themes.normal, appBg: 'white' },
   },
   layout: 'centered',
   viewport: {
