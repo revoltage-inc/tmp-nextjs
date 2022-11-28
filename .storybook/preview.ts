@@ -1,5 +1,5 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-import '../src/assets/css/globals.css'
+import '../src/assets/css/global.css'
 import Image from 'next/image'
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 
