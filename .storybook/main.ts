@@ -1,5 +1,5 @@
-import { StorybookConfig } from '@storybook/react-vite'
-// import { StorybookConfig } from '@storybook/react-webpack5'
+import type { StorybookConfig } from '@storybook/react-vite'
+// import type { StorybookConfig } from '@storybook/react-webpack5'
 // import { DefinePlugin } from 'webpack'
 // import { resolve } from 'path'
 
@@ -19,6 +19,9 @@ const config: StorybookConfig = {
       fastRefresh: true,
       strictMode: true,
     },
+  },
+  docs: {
+    docsPage: 'automatic',
   },
   // webpackFinal: (config) => {
   //   if (config.module?.rules) {
