@@ -20,6 +20,9 @@ const config: StorybookConfig = {
       strictMode: true,
     },
   },
+  docs: {
+    docsPage: 'automatic',
+  },
   // webpackFinal: (config) => {
   //   if (config.module?.rules) {
   //     config.module.rules = config.module.rules.map((rule) => {
