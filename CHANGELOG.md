@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.7.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.4...v1.7.5) (2022-12-02)
+
+
+### Bug Fixes
+
+* 190 Storybookのドキュメントページの設定を追加 ([9886516](https://github.com/revoltage-inc/tmp-nextjs/commit/9886516ab409af20511347c1242f40d8c44ec9be))
+* 190 パッケージを更新 ([7711174](https://github.com/revoltage-inc/tmp-nextjs/commit/771117412f4ee6d6eb3874b0657cef15dc2ed531))
+* 190 リネーム ([0653225](https://github.com/revoltage-inc/tmp-nextjs/commit/06532250a3281afc18410acece4fbba1a211ee31))
+* 190 リファクタリング ([892e0b6](https://github.com/revoltage-inc/tmp-nextjs/commit/892e0b6eb87b5792cf784fd3883ad30f6696ea20))
+* 190 不要な環境変数を削除 ([b4b84d9](https://github.com/revoltage-inc/tmp-nextjs/commit/b4b84d9b90aebe55b1b30598a2ac1325e03c1853))
+
 ## [1.7.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.3...v1.7.4) (2022-11-28)
 
 
