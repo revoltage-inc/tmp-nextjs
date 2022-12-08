@@ -30,7 +30,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^7.0.0-alpha.58",
     "@storybook/addon-essentials": "^7.0.0-alpha.58",
-    "@storybook/addon-interactions": "^7.0.0-alpha.58",
+    "@storybook/addon-interactions": "^7.0.0-alpha.62",
     "@storybook/addon-links": "^7.0.0-alpha.58",
     "@storybook/addon-viewport": "^7.0.0-alpha.58",
     "@storybook/node-logger": "^7.0.0-alpha.58",
