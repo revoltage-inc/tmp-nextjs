@@ -62,6 +62,7 @@ npm run dev
 - [React Hook Form](https://react-hook-form.com/)
 - [tRPC](https://trpc.io/)
 - [Prisma](https://www.prisma.io/)
+- [date-fns](https://date-fns.org/)
 
 ## License
 
