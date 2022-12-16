@@ -1,5 +1,6 @@
 import '@assets/css/global.css'
 import type { AppProps } from 'next/app'
+import { useEffect } from 'react'
 // import type { NextWebVitalsMetric } from 'next/app'
 
 // export function reportWebVitals(metric: NextWebVitalsMetric) {
@@ -7,5 +8,13 @@ import type { AppProps } from 'next/app'
 // }
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    // HACK: IE Access Block
+    const userAgent = window.navigator.userAgent.toLowerCase()
+    if (userAgent.indexOf('msie') !== -1 || userAgent.indexOf('trident') !== -1) {
+      window.location.replace('../unsupport.html')
+    }
+  }, [])
+
   return <Component {...pageProps} />
 }
