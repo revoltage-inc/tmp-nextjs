@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.8.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.0...v1.8.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* 239 IEのアクセスをブロックするように修正 ([0319422](https://github.com/revoltage-inc/tmp-nextjs/commit/03194222802346b96ac5e11cf2d0220454a8c446))
+* 239 パッケージを整理 ([cd5cba4](https://github.com/revoltage-inc/tmp-nextjs/commit/cd5cba4b5718b5283805c29df29b7f16c9999094))
+* 239 パッケージを更新 ([00c4fb5](https://github.com/revoltage-inc/tmp-nextjs/commit/00c4fb5b8ecc46ef6dcdefa587923a6185b4ef3a))
+
 ## [1.7.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.7.5...v1.7.6) (2022-12-05)
 
 
