@@ -64,10 +64,7 @@
   "overrides": {
     "css-select": "^4.0.0",
     "got": "^11.8.5",
-    "trim": "^0.0.3",
-    "highlight.js": "^10.4.1",
-    "node-fetch": "^2.6.7",
-    "prismjs": "^1.27.0"
+    "node-fetch": "^2.6.7"
   },
   "browserslist": [
     "> 1% in JP",
