@@ -26,13 +26,11 @@ npm install
 ```
 
 Then create environment file with following command.  
+Set environment variables in environment file.  
 
 ```zsh
 cp .env.template .env
 ```
-
-Environment variables in the .env file
-`BASIC_AUTH_USERNAME` and `BASIC_AUTH_PASSWORD` with any user and password to set up Basic Authentication.
 
 ## Usage
 
@@ -57,6 +55,11 @@ npm run dev
 - [Storybook](https://storybook.js.org/)
 - [Vite](https://ja.vitejs.dev/)
 - [TailwindCSS](https://tailwindui.com/)
+
+## Recommended
+
+- [Zod](https://zod.dev/)
+- [React Hook Form](https://react-hook-form.com/)
 - [tRPC](https://trpc.io/)
 - [Prisma](https://www.prisma.io/)
 
