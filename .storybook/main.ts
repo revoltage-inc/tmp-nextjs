@@ -1,7 +1,7 @@
 import type { StorybookConfig } from '@storybook/react-vite'
 // import type { StorybookConfig } from '@storybook/react-webpack5'
 // import { DefinePlugin } from 'webpack'
-// import { resolve } from 'path'
+// import { resolve } from 'node:path'
 
 const config: StorybookConfig = {
   stories: ['../src/components/**/*.stories.tsx'],
