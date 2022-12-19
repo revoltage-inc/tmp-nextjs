@@ -10,9 +10,9 @@ import { useEffect } from 'react'
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     // HACK: IE Access Block
-    const userAgent = window.navigator.userAgent.toLowerCase()
+    const userAgent = navigator.userAgent.toLowerCase()
     if (userAgent.indexOf('msie') !== -1 || userAgent.indexOf('trident') !== -1) {
-      window.location.replace('../unsupport.html')
+      location.replace('../unsupport.html')
     }
   }, [])
 
