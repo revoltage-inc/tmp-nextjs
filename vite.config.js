@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import svgr from 'vite-plugin-svgr'
 
 export default defineConfig({

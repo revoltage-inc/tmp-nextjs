@@ -5,8 +5,6 @@ module.exports = {
     'at-rule-no-unknown': [true, { ignoreAtRules: ['extends', 'tailwind'] }],
     'function-no-unknown': [true, { ignoreFunctions: ['theme'] }],
     'block-no-empty': null,
-    // Bug: 何故か「Unknown rule unit-whitelist」のエラーが発生する
-    // 'unit-whitelist': ['em', 'rem', 'px', '%', 'vh', 'vw'],
     'font-family-no-missing-generic-family-keyword': null,
     'no-descending-specificity': null,
     'order/order': ['custom-properties', 'declarations'],
@@ -152,4 +150,4 @@ module.exports = {
       },
     ],
   },
-};
+}
