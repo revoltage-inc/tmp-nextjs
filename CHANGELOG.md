@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.1...v1.8.2) (2022-12-19)
+
+
+### Bug Fixes
+
+* 250 Storybookをバージョンダウン ([dd7e20f](https://github.com/revoltage-inc/tmp-nextjs/commit/dd7e20f56ffa917825458e3e21d42bae9f4ce0d9))
+
 ## [1.8.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.0...v1.8.1) (2022-12-16)
 
 
