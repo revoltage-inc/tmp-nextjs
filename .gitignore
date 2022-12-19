@@ -20,9 +20,5 @@ build
 # Vercel
 .vercel
 
-# Database
-/prisma/db.sqlite
-/prisma/db.sqlite-journal
-
 # Environment file
 .env
