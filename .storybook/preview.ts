@@ -1,7 +1,8 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-import '../src/assets/css/global.css'
 import Image from 'next/image'
 import { RouterContext } from 'next/dist/shared/lib/router-context'
+import '../src/assets/css/font.css'
+import '../src/assets/css/global.css'
 
 // @ts-ignore
 Image.defaultProps = {
