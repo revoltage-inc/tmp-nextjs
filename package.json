@@ -31,7 +31,7 @@
     "@storybook/react-vite": "7.0.0-beta.4",
     "@storybook/react-webpack5": "7.0.0-beta.4",
     "@storybook/testing-library": "^0.0.14-next.1",
-    "@storybook/theming": "7.0.0-beta.4",
+    "@storybook/theming": "7.0.0-beta.12",
     "@svgr/webpack": "^6.5.1",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@types/node": "^18.11.17",
