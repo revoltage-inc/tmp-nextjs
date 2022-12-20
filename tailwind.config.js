@@ -1,5 +1,6 @@
 const plugin = require('tailwindcss/plugin')
 const colors = require('tailwindcss/colors')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -15,6 +16,9 @@ module.exports = {
     extend: {
       colors: {
         main: colors.white,
+      },
+      fontFamily: {
+        'noto-sans-jp': ['var(--font-noto-sans-jp)', ...fontFamily.sans],
       },
     },
   },
