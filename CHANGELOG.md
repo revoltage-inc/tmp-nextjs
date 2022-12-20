@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.8.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.2...v1.8.3) (2022-12-20)
+
+
+### Bug Fixes
+
+* 259 NotoSansJPフォントを適用するように修正 ([e7464e0](https://github.com/revoltage-inc/tmp-nextjs/commit/e7464e00d77c56eba0cb6745f8af9ca1a0aeb042))
+* 259 リネーム ([54bbafc](https://github.com/revoltage-inc/tmp-nextjs/commit/54bbafc8651e8f8369c12fa130cc16914448bc4f))
+* 259 リネーム ([15e9da1](https://github.com/revoltage-inc/tmp-nextjs/commit/15e9da1a82775d1495f010755d9ec3d5d141cf44))
+* 259 リファクタリング ([c718993](https://github.com/revoltage-inc/tmp-nextjs/commit/c71899381933a4915c33af8b46a4cef9fd753669))
+
 ## [1.8.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.1...v1.8.2) (2022-12-19)
 
 
