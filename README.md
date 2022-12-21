@@ -51,9 +51,16 @@ npm run dev
 
 ## Reference
 
+### Document
+
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
+
+### Article
+
+- [Integrate Next.js and Storybook automatically](https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/)
+- [Ignored Build Step](https://zenn.dev/bisque/scraps/50a51a28d6eb85)
 
 ## Recommended
 
