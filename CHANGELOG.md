@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.3...v1.8.4) (2022-12-21)
+
+
+### Bug Fixes
+
+* 264 @tailwindcss/line-clampのライブラリを削除 ([95917a9](https://github.com/revoltage-inc/tmp-nextjs/commit/95917a932ea0156b489621325bb5f1bc9df855c4))
+* 264 fix Storybookのフレームワークをnext.jsに変更 ([4a0ac95](https://github.com/revoltage-inc/tmp-nextjs/commit/4a0ac951f9d494fc8f538c2cdd8dca7cac274df6))
+* 264 imgディレクトリを作成 ([2814f53](https://github.com/revoltage-inc/tmp-nextjs/commit/2814f5386b3945e47672e19708452670d55559e3))
+* 264 Referenceを細分化 ([396fa7b](https://github.com/revoltage-inc/tmp-nextjs/commit/396fa7b82cf678ae6fb2e0c150efb8033ea57481))
+* 264 パッケージを更新 ([7547a07](https://github.com/revoltage-inc/tmp-nextjs/commit/7547a0762ef7bdcf39d40dd054d5133ca4907d8f))
+* 264 リネーム ([e287f58](https://github.com/revoltage-inc/tmp-nextjs/commit/e287f58ae6427e762f844e41f294c5a07df41edf))
+
 ## [1.8.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.2...v1.8.3) (2022-12-20)
 
 
