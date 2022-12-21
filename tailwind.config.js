@@ -28,11 +28,18 @@ module.exports = {
       addVariant('not-last', '&:not(:last-child)')
     }),
     plugin(({ addUtilities }) => {
-      addUtilities({
-        '.box': {
-          display: '-webkit-box',
+      addUtilities([
+        {
+          '.box': {
+            display: '-webkit-box',
+          },
         },
-      })
+        {
+          '.line-clamp': {
+            display: '-webkit-line-clamp',
+          },
+        },
+      ])
     }),
   ],
   important: false,
