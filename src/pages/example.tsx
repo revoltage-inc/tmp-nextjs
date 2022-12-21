@@ -1,7 +1,7 @@
 import { useWindow } from '@libs/window'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Page } from '@components/storybook/page'
+import { Page } from '@components/example/page'
 
 export const Storybook: NextPage = () => {
   const { width } = useWindow()
