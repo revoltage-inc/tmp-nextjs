@@ -1,6 +1,7 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-import '../src/assets/css/font.css'
 import '../src/assets/css/global.css'
+// FIX: Make fonts in next/font work by overriding cascading variables.
+import '../src/assets/css/font.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
