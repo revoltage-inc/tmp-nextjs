@@ -1,7 +1,5 @@
-import type { StorybookConfig } from '@storybook/react-vite'
-// import type { StorybookConfig } from '@storybook/react-webpack5'
-// import { DefinePlugin } from 'webpack'
-// import { resolve } from 'node:path'
+import type { StorybookConfig } from '@storybook/nextjs'
+import { resolve } from 'node:path'
 
 const config: StorybookConfig = {
   stories: ['../src/components/**/*.stories.tsx'],
@@ -9,12 +7,10 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
-    'storybook-addon-next-router',
   ],
   staticDirs: ['../public'],
   framework: {
-    name: '@storybook/react-vite',
-    // name: '@storybook/react-webpack5',
+    name: '@storybook/nextjs',
     options: {
       fastRefresh: true,
       strictMode: true,
@@ -23,44 +19,36 @@ const config: StorybookConfig = {
   docs: {
     docsPage: 'automatic',
   },
-  // webpackFinal: (config) => {
-  //   if (config.module?.rules) {
-  //     config.module.rules = config.module.rules.map((rule) => {
-  //       // HACK: Override SVG loader to not use file-loader
-  //       if (rule !== '...' && rule.test?.toString().indexOf('svg') !== -1) {
-  //         rule.exclude = /\.svg$/
-  //       }
-  //       return rule
-  //     })
+  webpackFinal: (config) => {
+    if (config.module?.rules) {
+      config.module.rules = config.module.rules.map((rule) => {
+        // HACK: Override SVG loader to not use file-loader
+        if (rule !== '...' && rule.test?.toString().indexOf('svg') !== -1) {
+          rule.exclude = /\.svg$/
+        }
+        return rule
+      })
 
-  //     config.module.rules.push({
-  //       test: /\.svg$/,
-  //       use: ['@svgr/webpack'],
-  //       issuer: /\.tsx$/,
-  //     })
-  //   }
+      config.module.rules.push({
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+        issuer: /\.tsx$/,
+      })
+    }
 
-  //   if (config.resolve?.alias) {
-  //     config.resolve.alias = {
-  //       ...config.resolve.alias,
-  //       ...{
-  //         '@assets': resolve(__dirname, '../src/assets/'),
-  //         '@components': resolve(__dirname, '../src/components/'),
-  //         '@libs': resolve(__dirname, '../src/libs/'),
-  //       },
-  //     }
-  //   }
+    if (config.resolve?.alias) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        ...{
+          '@assets': resolve(__dirname, '../src/assets/'),
+          '@components': resolve(__dirname, '../src/components/'),
+          '@libs': resolve(__dirname, '../src/libs/'),
+        },
+      }
+    }
 
-  //   // HACK: STORYBOOK environment variable is not working, so set
-  //   // https://github.com/storybookjs/storybook/pull/12997
-  //   config.plugins?.push(
-  //     new DefinePlugin({
-  //       STORYBOOK: true,
-  //     })
-  //   )
-
-  //   return config
-  // },
+    return config
+  },
 }
 
 export default config
