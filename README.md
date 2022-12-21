@@ -53,7 +53,6 @@ npm run dev
 
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
-- [Vite](https://ja.vitejs.dev/)
 - [TailwindCSS](https://tailwindui.com/)
 
 ## Recommended

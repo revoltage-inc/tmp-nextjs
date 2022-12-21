@@ -23,7 +23,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/line-clamp'),
     plugin(({ addVariant }) => {
       addVariant('not-first', '&:not(:first-child)')
       addVariant('not-last', '&:not(:last-child)')
