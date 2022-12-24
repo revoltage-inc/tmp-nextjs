@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.0...v1.9.1) (2022-12-24)
+
+
+### Bug Fixes
+
+* 271 Storybookのドキュメント自動生成オプションの記述を変更 ([b560443](https://github.com/revoltage-inc/tmp-nextjs/commit/b56044372d3942778bdc3c1571807b319cdf660e))
+* 271 SWCを使用するオプションを有効化 ([d6218dc](https://github.com/revoltage-inc/tmp-nextjs/commit/d6218dc61d8eddc7429b86e6700bb00841a4ff31))
+* 271 パッケージを更新 ([9a8a279](https://github.com/revoltage-inc/tmp-nextjs/commit/9a8a27918d4861c562d3c6377306a40591ac11d1))
+
 ## [1.8.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.8.3...v1.8.4) (2022-12-21)
 
 
