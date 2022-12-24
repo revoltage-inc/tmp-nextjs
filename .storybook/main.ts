@@ -17,7 +17,7 @@ const config: StorybookConfig = {
     },
   },
   docs: {
-    docsPage: 'automatic',
+    autodocs: true,
   },
   webpackFinal: (config) => {
     if (config.module?.rules) {

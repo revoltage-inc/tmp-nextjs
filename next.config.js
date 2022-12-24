@@ -9,6 +9,9 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     disableStaticImages: true,
   },
+  experimental: {
+    forceSwcTransforms: true,
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.svg$/,
