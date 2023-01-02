@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.1...v1.9.2) (2023-01-02)
+
+
+### Bug Fixes
+
+* 280 Viewportを追加 ([78414c1](https://github.com/revoltage-inc/tmp-nextjs/commit/78414c19a2c1685771ff1c7fec9f3ea85bf63e53))
+* 280 パッケージを更新 ([6e7d188](https://github.com/revoltage-inc/tmp-nextjs/commit/6e7d1881ac6aefad26c8ec88091fedb5ed7614dd))
+
 ## [1.9.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.0...v1.9.1) (2022-12-24)
 
 
