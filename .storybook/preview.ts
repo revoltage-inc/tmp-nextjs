@@ -13,7 +13,26 @@ export const parameters = {
   },
   layout: 'centered',
   viewport: {
-    viewports: INITIAL_VIEWPORTS,
+    defaultViewport: 'laptop',
+    viewports: {
+      ...INITIAL_VIEWPORTS,
+      ...{
+        laptop: {
+          name: 'Laptop',
+          styles: {
+            width: '1280px',
+            height: '800px',
+          },
+        },
+        desktop: {
+          name: 'Desktop',
+          styles: {
+            width: '1536px',
+            height: '960px',
+          },
+        },
+      },
+    },
   },
   backgrounds: {
     default: 'white',
