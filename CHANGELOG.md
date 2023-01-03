@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.3...v1.9.4) (2023-01-03)
+
+
+### Bug Fixes
+
+* 287 脆弱性のあるjson5のバージョンをオーバーライド ([c277959](https://github.com/revoltage-inc/tmp-nextjs/commit/c277959495feeb5e6968ffa5df953f6649510f25))
+
 ## [1.9.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.2...v1.9.3) (2023-01-03)
 
 
