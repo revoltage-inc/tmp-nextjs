@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.2...v1.9.3) (2023-01-03)
+
+
+### Bug Fixes
+
+* 284 line-clampのユーティリティクラスを追加 ([4879e08](https://github.com/revoltage-inc/tmp-nextjs/commit/4879e08e8970a6703697f00c91089706e825947c))
+
 ## [1.9.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.1...v1.9.2) (2023-01-02)
 
 
