@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.4...v1.9.5) (2023-01-04)
+
+
+### Bug Fixes
+
+* 290 PostCSSの整形にPrettierを使用するように設定追加 ([0e3ad4f](https://github.com/revoltage-inc/tmp-nextjs/commit/0e3ad4fe113489c330a3074622782d6ee09f722f))
+* 290 フォーマット ([29f2581](https://github.com/revoltage-inc/tmp-nextjs/commit/29f2581be9416e97b75033d583a3076b3a6dcf97))
+
 ## [1.9.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.3...v1.9.4) (2023-01-03)
 
 
