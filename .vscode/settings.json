@@ -41,8 +41,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[postcss]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "css.validate": false,
-  "stylelint.validate": ["css"],
+  "stylelint.validate": ["css", "postcss"],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
