@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.5...v1.9.6) (2023-01-14)
+
+
+### Bug Fixes
+
+* 313 dependabotのPRを自動マージするワークフローを追加 ([a038ad1](https://github.com/revoltage-inc/tmp-nextjs/commit/a038ad1be8e7909698d772c8c3bbda908698b868))
+* 313 Prettierをバージョンダウン(動作テスト) ([d7be24e](https://github.com/revoltage-inc/tmp-nextjs/commit/d7be24eeb2ab563f17cc068331dd517aad9e6486))
+* 313 リファクタリング ([f1d3c32](https://github.com/revoltage-inc/tmp-nextjs/commit/f1d3c32ec4e14ea49cb38ac9e89ec2558a081fce))
+
 ## [1.9.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.4...v1.9.5) (2023-01-04)
 
 
