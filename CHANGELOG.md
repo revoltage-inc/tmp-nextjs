@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.7](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.6...v1.9.7) (2023-01-16)
+
+
+### Bug Fixes
+
+* 313 dependabot/fetch-metadataのバージョンを指定するように修正 ([1c62960](https://github.com/revoltage-inc/tmp-nextjs/commit/1c629606aa883c0de66f2f65499f7fbe23b153ab))
+* 313 Storybookをバージョンダウン(動作テスト) ([5e6e40f](https://github.com/revoltage-inc/tmp-nextjs/commit/5e6e40f456a8bc356d83fc0c371e04c5659df853))
+
 ## [1.9.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.5...v1.9.6) (2023-01-14)
 
 
