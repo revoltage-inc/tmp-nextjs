@@ -26,7 +26,7 @@
     "@storybook/addon-interactions": "^7.0.0-beta.28",
     "@storybook/addon-links": "^7.0.0-beta.28",
     "@storybook/addon-viewport": "^7.0.0-beta.28",
-    "@storybook/blocks": "^7.0.0-beta.28",
+    "@storybook/blocks": "^7.0.0-beta.29",
     "@storybook/nextjs": "^7.0.0-beta.28",
     "@storybook/react": "^7.0.0-beta.25",
     "@storybook/testing-library": "^0.0.14-next.1",
