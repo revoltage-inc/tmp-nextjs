@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.8](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.7...v1.9.8) (2023-01-25)
+
+
+### Bug Fixes
+
+* 370 updateコマンドを統一 ([15b4827](https://github.com/revoltage-inc/tmp-nextjs/commit/15b4827d32eafd24d2196d219d4d1f0f6b4b1c39))
+* 370 パッケージを更新 ([1f4d4b8](https://github.com/revoltage-inc/tmp-nextjs/commit/1f4d4b8cbeaf0a962776b3e55fd1a7dd9feb1b87))
+
 ## [1.9.7](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.6...v1.9.7) (2023-01-16)
 
 
