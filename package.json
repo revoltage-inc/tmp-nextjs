@@ -10,8 +10,7 @@
     "start": "next start",
     "lint": "next lint && stylelint src/assets/css/**/*.css --fix --config stylelint.config.js",
     "sb": "npx sb dev -p 6006",
-    "update:sb": "npx sb@future upgrade --prerelease",
-    "update": "npx ncu -u && npm install"
+    "update": "npx ncu -u && npx sb@future upgrade --prerelease && npm install"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
