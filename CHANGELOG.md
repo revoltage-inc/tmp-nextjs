@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.9](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.8...v1.9.9) (2023-01-28)
+
+
+### Bug Fixes
+
+* 389 dependabotのバージョンを1系に固定 ([cc1d143](https://github.com/revoltage-inc/tmp-nextjs/commit/cc1d1430ebd78d892d4ee123c0d623f399a23e9a))
+* 389 パッケージを更新 ([a49f2d2](https://github.com/revoltage-inc/tmp-nextjs/commit/a49f2d2f30c8e503fa25de76df73891285242b24))
+
 ## [1.9.8](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.7...v1.9.8) (2023-01-25)
 
 
