@@ -39,7 +39,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-storybook": "^0.6.11--canary.1e6ab29.0",
     "eslint-plugin-tailwindcss": "^3.8.3",
-    "npm-check-updates": "^16.6.3",
+    "npm-check-updates": "^16.6.4",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^8.0.1",
     "prettier": "^2.8.3",
