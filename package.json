@@ -13,7 +13,7 @@
     "update": "npx ncu -u && npx sb@future upgrade --prerelease && npm install"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.8",
+    "@headlessui/react": "^1.7.9",
     "@next/font": "^13.1.6",
     "next": "^13.1.6",
     "react": "^18.2.0",
