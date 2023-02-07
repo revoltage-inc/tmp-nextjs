@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.10](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.9...v1.9.10) (2023-02-07)
+
+
+### Bug Fixes
+
+* 422 Vercelでコミット時にデプロイするのを防ぐコマンドを追加 ([4811737](https://github.com/revoltage-inc/tmp-nextjs/commit/481173780c77b4f5b1621df4b72b188a9a5b80ec))
+* 422 パッケージを更新 ([0442aa5](https://github.com/revoltage-inc/tmp-nextjs/commit/0442aa515f8abc8b81335f56323f6bfceda7d832))
+
 ## [1.9.9](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.8...v1.9.9) (2023-01-28)
 
 
