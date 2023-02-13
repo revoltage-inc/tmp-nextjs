@@ -56,7 +56,8 @@
     "css-select": "^4.0.0",
     "got": "^11.8.5",
     "json5": "^2.2.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "cacheable-request": "^10.2.7"
   },
   "browserslist": [
     "> 1% in JP",
