@@ -1,0 +1,13 @@
+# System File
+.DS_Store
+__MACOSX
+Thumbs.db
+
+# Node.js
+node_modules/
+
+# VSCode Plugin
+.history
+
+# Storybook
+storybook-static/
