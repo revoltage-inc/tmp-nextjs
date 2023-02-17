@@ -44,7 +44,7 @@
     "postcss-preset-env": "^8.0.1",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.3",
-    "storybook": "^7.0.0-beta.48",
+    "storybook": "^7.0.0-beta.49",
     "stylelint": "^15.1.0",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^10.0.1",
