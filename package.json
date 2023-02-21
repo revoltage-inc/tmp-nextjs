@@ -26,7 +26,7 @@
     "@storybook/addon-links": "^7.0.0-beta.50",
     "@storybook/addon-viewport": "^7.0.0-beta.46",
     "@storybook/blocks": "^7.0.0-beta.50",
-    "@storybook/nextjs": "^7.0.0-beta.50",
+    "@storybook/nextjs": "^7.0.0-beta.51",
     "@storybook/react": "^7.0.0-beta.50",
     "@storybook/testing-library": "^0.0.14-next.1",
     "@svgr/webpack": "^6.5.1",
