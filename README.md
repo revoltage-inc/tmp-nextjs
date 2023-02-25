@@ -15,15 +15,17 @@ This includes Storybook and TailwindCSS.
 - [Install Workspace recommended VSCode extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 - [Install Volta](https://docs.volta.sh/guide/getting-started)
 
-<h3>Create environment</h3>
+<h3>Create execution environment</h3>
 
-Create environment with following command.  
+Create execution environment with following command.  
 
 ```zsh
-volta install node@18.12.1 npm@9.1.2
+volta install node@18.14.2 npm@9.5.0
 
 npm install
 ```
+
+<h3>Create environment file</h3>
 
 Then create environment file with following command.  
 Set environment variables in environment file.  
