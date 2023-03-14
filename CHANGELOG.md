@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.9.13](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.12...v1.9.13) (2023-03-14)
+
+
+### Bug Fixes
+
+* 547 stylelint-config-prettierを削除 ([08e9cff](https://github.com/revoltage-inc/tmp-nextjs/commit/08e9cffb269d4b762ca265ce75816c3cd84af2ce))
+* 547 tsconfig.jsonを修正 ([f3d306e](https://github.com/revoltage-inc/tmp-nextjs/commit/f3d306e87ef17cf446be20bb7f2e943072be3d8b))
+* 547 パッケージを更新 ([57c242f](https://github.com/revoltage-inc/tmp-nextjs/commit/57c242f3097ecde73e2cfadc8a98fee428aaea71))
+* 547 リファクタリング ([9952c7d](https://github.com/revoltage-inc/tmp-nextjs/commit/9952c7dd559bd96c406bf0ebec9041d8c75af87c))
+
 ## [1.9.12](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.11...v1.9.12) (2023-02-25)
 
 
