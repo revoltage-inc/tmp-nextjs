@@ -7,15 +7,15 @@ This includes Storybook and TailwindCSS.
 > This template is still in alpha stage.  
 > Beware destructive changes.  
 
-<h2 id="setting">Setting</h2>
-
-<h3>Premise</h3>
+## Premise
 
 - [Install VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 - [Install Workspace recommended VSCode extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 - [Install Volta](https://docs.volta.sh/guide/getting-started)
 
-<h3>Create execution environment</h3>
+## Setting
+
+### Create execution environment
 
 Create execution environment with following command.  
 
@@ -25,7 +25,7 @@ volta install node@18.14.2 npm@9.5.0
 npm install
 ```
 
-<h3>Create environment file</h3>
+### Setting environment variables
 
 Then create environment file with following command.  
 Set environment variables in environment file.  
@@ -36,7 +36,7 @@ cp .env.template .env
 
 ## Usage
 
-After completing [Setting](./README.md#setting), run develop server with following command.  
+Run develop server with following command.  
 
 ```zsh
 npm run dev
