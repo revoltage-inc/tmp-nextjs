@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "esnext",
+    "useDefineForClassFields": true,
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -12,13 +14,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "incremental": true,
     "paths": {
-      "@assets*": ["src/assets*"],
-      "@components*": ["src/components*"],
-      "@libs*": ["src/libs*"]
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@libs/*": ["src/libs/*"],
+      "@types/*": ["src/types/*"]
     },
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.tsx", "next-env.d.ts"],
