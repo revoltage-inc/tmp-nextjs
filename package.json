@@ -42,7 +42,7 @@
     "npm-check-updates": "^16.7.12",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^8.0.1",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.6",
     "prettier-plugin-tailwindcss": "^0.2.5",
     "storybook": "^7.0.0-rc.5",
     "stylelint": "^15.2.0",
