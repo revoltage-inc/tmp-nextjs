@@ -28,32 +28,7 @@ module.exports = {
       addVariant('not-last', '&:not(:last-child)')
     }),
     plugin(({ addUtilities }) => {
-      addUtilities([
-        {
-          '.line-clamp-1': {
-            display: '-webkit-box',
-            '-webkit-line-clamp': '1',
-            '-webkit-box-orient': 'vertical',
-            overflow: 'hidden',
-          },
-        },
-        {
-          '.line-clamp-2': {
-            display: '-webkit-box',
-            '-webkit-line-clamp': '2',
-            '-webkit-box-orient': 'vertical',
-            overflow: 'hidden',
-          },
-        },
-        {
-          '.line-clamp-3': {
-            display: '-webkit-box',
-            '-webkit-line-clamp': '3',
-            '-webkit-box-orient': 'vertical',
-            overflow: 'hidden',
-          },
-        },
-      ])
+      addUtilities([])
     }),
   ],
   important: false,
