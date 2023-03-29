@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.9.14](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.13...v1.9.14) (2023-03-29)
+
+
+### Bug Fixes
+
+* 579 @next/fontをnext/fontにリプレイス ([c7300e3](https://github.com/revoltage-inc/tmp-nextjs/commit/c7300e385337d1c4e4fccf5330ddaddfba24db5e))
+* 579 autodocsをoffに設定 ([412e4b1](https://github.com/revoltage-inc/tmp-nextjs/commit/412e4b1a801b723566fbbcd68bef14582504d700))
+* 579 line-clampのutilitiesを削除 ([ca5c7a7](https://github.com/revoltage-inc/tmp-nextjs/commit/ca5c7a75beebea1b9fb87da0d89d83544ff0d6c1))
+* 579 parserを追加 ([53badf0](https://github.com/revoltage-inc/tmp-nextjs/commit/53badf0696e4fd75151b17136e14e18ba960ec5f))
+* 579 SWRのREADMEに追記 ([2812dbf](https://github.com/revoltage-inc/tmp-nextjs/commit/2812dbfe126d8ad6f895eba179b90d85f09d1e75))
+* 579 tailwindの設定ファイルをtypescript化 ([0b762e2](https://github.com/revoltage-inc/tmp-nextjs/commit/0b762e29cb3b1a4fada3ee2beb1aa3cf6c77407e))
+* 579 パッケージを更新 ([29052ab](https://github.com/revoltage-inc/tmp-nextjs/commit/29052ab744ca75a3f387204498f6ecf8e530d197))
+* 579 フォーマット ([00b6137](https://github.com/revoltage-inc/tmp-nextjs/commit/00b613744e9cac44cd7c7ebaef77e192c004569f))
+
 ## [1.9.13](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.12...v1.9.13) (2023-03-14)
 
 
