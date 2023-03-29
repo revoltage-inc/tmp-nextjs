@@ -1,9 +1,9 @@
-const plugin = require('tailwindcss/plugin')
-const colors = require('tailwindcss/colors')
-const { fontFamily } = require('tailwindcss/defaultTheme')
+import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
+import colors from 'tailwindcss/colors'
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
@@ -32,4 +32,4 @@ module.exports = {
     }),
   ],
   important: false,
-}
+} satisfies Config
