@@ -71,6 +71,7 @@ npm run dev
 - [tRPC](https://trpc.io/)
 - [Prisma](https://www.prisma.io/)
 - [date-fns](https://date-fns.org/)
+- [SWR](https://github.com/vercel/swr)
 
 ## License
 

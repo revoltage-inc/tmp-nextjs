@@ -1,6 +1,6 @@
 import '@assets/css/global.css'
 import type { AppProps } from 'next/app'
-import { Noto_Sans_JP } from '@next/font/google'
+import { Noto_Sans_JP } from 'next/font/google'
 import { useEffect } from 'react'
 // import type { NextWebVitalsMetric } from 'next/app'
 
@@ -10,7 +10,7 @@ import { useEffect } from 'react'
 
 const notoSansJP = Noto_Sans_JP({
   weight: ['400', '500', '700'],
-  subsets: ['japanese'],
+  subsets: ['latin'],
   variable: '--font-noto-sans-jp',
 })
 
