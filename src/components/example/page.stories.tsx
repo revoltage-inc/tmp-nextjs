@@ -7,7 +7,7 @@ export default {
   parameters: {
     layout: 'fullscreen',
   },
-} as Meta<typeof Page>
+} satisfies Meta<typeof Page>
 
 export const LoggedIn: StoryObj<typeof Page> = {
   args: {},
