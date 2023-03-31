@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.9.15](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.14...v1.9.15) (2023-03-31)
+
+
+### Bug Fixes
+
+* 590 tailwind.config.tsをinclude ([e562a07](https://github.com/revoltage-inc/tmp-nextjs/commit/e562a0780d16bc6d8b9047b50fce59e1670d272b))
+* 590 パッケージを更新 ([0607499](https://github.com/revoltage-inc/tmp-nextjs/commit/0607499667e81294dcfa51fa8df594ecfb073068))
+* 590 不要なルールを削除 ([23dd8a7](https://github.com/revoltage-inc/tmp-nextjs/commit/23dd8a7682d13d81799aa8c6edf6e824afc91150))
+* 590 型を修正 ([8ea6be4](https://github.com/revoltage-inc/tmp-nextjs/commit/8ea6be4be3acf2e33d0af03cd32ea9326494669a))
+
 ## [1.9.14](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.13...v1.9.14) (2023-03-29)
 
 
