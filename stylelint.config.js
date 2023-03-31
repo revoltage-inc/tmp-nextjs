@@ -2,7 +2,7 @@ module.exports = {
   extends: ['stylelint-config-recommended'],
   plugins: ['stylelint-order'],
   rules: {
-    'at-rule-no-unknown': [true, { ignoreAtRules: ['extends', 'tailwind'] }],
+    'at-rule-no-unknown': [true, { ignoreAtRules: ['tailwind'] }],
     'function-no-unknown': [true, { ignoreFunctions: ['theme'] }],
     'block-no-empty': null,
     'font-family-no-missing-generic-family-keyword': null,
