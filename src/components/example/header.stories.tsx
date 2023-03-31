@@ -6,7 +6,7 @@ export default {
   parameters: {
     layout: 'fullscreen',
   },
-} as Meta<typeof Header>
+} satisfies Meta<typeof Header>
 
 export const LoggedIn: StoryObj<typeof Header> = {
   args: {

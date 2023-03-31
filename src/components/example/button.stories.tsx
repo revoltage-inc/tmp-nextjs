@@ -6,7 +6,7 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} as Meta<typeof Button>
+} satisfies Meta<typeof Button>
 
 export const Primary: StoryObj<typeof Button> = {
   args: {
