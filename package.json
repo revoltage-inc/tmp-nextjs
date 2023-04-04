@@ -27,7 +27,7 @@
     "@storybook/blocks": "^7.0.2",
     "@storybook/nextjs": "^7.0.2",
     "@storybook/react": "^7.0.2",
-    "@storybook/testing-library": "^0.0.14--canary.136d346.0",
+    "@storybook/testing-library": "^0.1.0",
     "@svgr/webpack": "^7.0.0",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
