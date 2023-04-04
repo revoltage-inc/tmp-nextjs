@@ -30,7 +30,7 @@
     "@storybook/testing-library": "^0.0.14--canary.136d346.0",
     "@svgr/webpack": "^7.0.0",
     "@types/node": "^18.15.11",
-    "@types/react": "^18.0.32",
+    "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/parser": "^5.57.0",
     "autoprefixer": "^10.4.14",
