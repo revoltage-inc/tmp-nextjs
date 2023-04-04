@@ -25,7 +25,7 @@
     "@storybook/addon-links": "^7.0.2",
     "@storybook/addon-viewport": "^7.0.2",
     "@storybook/blocks": "^7.0.2",
-    "@storybook/nextjs": "^7.0.0",
+    "@storybook/nextjs": "^7.0.2",
     "@storybook/react": "^7.0.2",
     "@storybook/testing-library": "^0.0.14--canary.136d346.0",
     "@svgr/webpack": "^7.0.0",
