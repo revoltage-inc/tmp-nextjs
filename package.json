@@ -38,7 +38,7 @@
     "eslint-config-next": "^13.2.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-storybook": "^0.6.11",
-    "eslint-plugin-tailwindcss": "^3.10.3",
+    "eslint-plugin-tailwindcss": "^3.11.0",
     "npm-check-updates": "^16.9.0",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^8.3.0",
