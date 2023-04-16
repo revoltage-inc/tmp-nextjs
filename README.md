@@ -1,11 +1,11 @@
 # tmp-nextjs
 
-このリポジトリは、Next.js のテンプレートです。
-これには、Storybook と Tailwind CSS が含まれます。
+このリポジトリは、Next.jsのテンプレートです。
+構成にはStorybookとTailwindCSSが含まれます。
 
-> **Warning**  
-> このテンプレートはまだアルファ段階です。
-> 破壊的な変更に注意してください。
+> **警告**  
+> このテンプレートは個人的なベストプラクティスに基づいて作成されたものです。  
+> 破壊的な変更に注意してください。  
 
 ## 前提
 
@@ -42,6 +42,18 @@ cp .env.template .env
 npm run dev
 ```
 
+## デプロイ
+
+Vercelでデプロイする場合は[こちらの記事](https://vercel.com/docs/concepts/deployments/overview)などを参考にデプロイを行う。  
+
+デプロイにVercel Botを使用していると、デフォルトではコミットのたびにデプロイが発生するため、  
+Git > Ignored Build Stepで下記のコマンドを指定することで、  
+mainなど特定のブランチにマージされた場合のみデプロイするように設定できる。  
+
+```zsh
+bash scripts/vercel-ignore-build-step.sh
+```
+
 ## スクリプト
 
 | スクリプト | 説明 |
@@ -59,6 +71,7 @@ npm run dev
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
+- [Vercel](https://vercel.com/)
 
 ### 記事
 
@@ -76,6 +89,7 @@ npm run dev
 - [date-fns](https://date-fns.org/)
 - [SWR](https://github.com/vercel/swr)
 - [NextAuth.js](https://next-auth.js.org/)
+- [Recoil](https://recoiljs.org/)
 
 ## ライセンス
 
