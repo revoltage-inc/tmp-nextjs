@@ -13,11 +13,9 @@
     "update": "npx ncu -u && npx sb upgrade && npm install"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
     "next": "^13.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.5",

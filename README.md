@@ -68,6 +68,8 @@ npm run dev
 ## 推奨ライブラリ
 
 - [Zod](https://zod.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Headless UI](https://headlessui.com/)
 - [React Hook Form](https://react-hook-form.com/)
 - [tRPC](https://trpc.io/)
 - [Prisma](https://www.prisma.io/)
