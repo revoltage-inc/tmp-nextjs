@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint && stylelint src/assets/css/**/*.css --fix --config stylelint.config.js",
     "sb": "npx sb dev -p 6006",
-    "update": "npx ncu -u && npx sb upgrade && npm install"
+    "update": "pnpm -r update --latest --depth 100 && npx sb upgrade -s"
   },
   "dependencies": {
     "next": "^13.3.0",
@@ -37,7 +37,6 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-tailwindcss": "^3.11.0",
-    "npm-check-updates": "^16.10.8",
     "postcss": "^8.4.22",
     "postcss-preset-env": "^8.3.1",
     "prettier": "^2.8.7",
