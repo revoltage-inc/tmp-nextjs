@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.17](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.16...v1.9.17) (2023-04-16)
+
+
+### Bug Fixes
+
+* 618 pnpmを導入 ([69f1a65](https://github.com/revoltage-inc/tmp-nextjs/commit/69f1a6566035753e5ff1c3b760731192c842cb90))
+* 618 パッケージの更新をnpm-check-updatesからpnpmに変更 ([09d4fab](https://github.com/revoltage-inc/tmp-nextjs/commit/09d4fab0626700e167aba6f2fec9cd070adbb34a))
+
 ## [1.9.16](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.15...v1.9.16) (2023-04-16)
 
 
