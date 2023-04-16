@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.18](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.17...v1.9.18) (2023-04-16)
+
+
+### Bug Fixes
+
+* 25 推奨ライブラリにNextAuth.jsを追加 ([19931af](https://github.com/revoltage-inc/tmp-nextjs/commit/19931afcdd072e31d41862c1cd117531f79cc8c7))
+
 ## [1.9.17](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.16...v1.9.17) (2023-04-16)
 
 
