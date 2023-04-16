@@ -1,23 +1,23 @@
-# tmp-nextjs(α)
+# tmp-nextjs
 
-This repository is template for Next.js.  
-This includes Storybook and TailwindCSS.  
+このリポジトリは、Next.js のテンプレートです。
+これには、Storybook と Tailwind CSS が含まれます。
 
 > **Warning**  
-> This template is still in alpha stage.  
-> Beware destructive changes.  
+> このテンプレートはまだアルファ段階です。
+> 破壊的な変更に注意してください。
 
-## Premise
+## 前提
 
-- [Install VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
-- [Install Workspace recommended VSCode extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
-- [Install Volta](https://docs.volta.sh/guide/getting-started)
+- [VSCodeのインストール](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [VSCodeの推奨拡張機能のインストール](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
+- [Voltaのインストール](https://docs.volta.sh/guide/getting-started)
 
-## Setting
+## 設定
 
-### Create execution environment
+### 実行環境の作成
 
-Create execution environment with following command.  
+下記のコマンドで実行環境を作成します。  
 
 ```zsh
 volta install node@18.14.2 npm@9.5.0
@@ -25,16 +25,16 @@ volta install node@18.14.2 npm@9.5.0
 npm install
 ```
 
-### Setting environment variables
+### 環境変数の設定
 
-Then create environment file with following command.  
-Set environment variables in environment file.  
+下記のコマンドで実行環境を作成します。  
+.envファイルに環境変数を記述します。  
 
 ```zsh
 cp .env.template .env
 ```
 
-## Usage
+## 使用方法
 
 Run develop server with following command.  
 
@@ -42,29 +42,29 @@ Run develop server with following command.
 npm run dev
 ```
 
-## Script
+## スクリプト
 
-| Script | Content |
+| スクリプト | 説明 |
 |:-------|:--------|
-| `npm run update`| Bulk update of packages |
-| `npm run dev` | Run develop server |
-| `npm run build` | Production build |
-| `npm run sb` | Run Storybook |
+| `npm run update`| パッケージを一括更新する |
+| `npm run dev` | ローカルサーバーを起動する |
+| `npm run build` | 本番ビルドする |
+| `npm run sb` | Storybookを起動する |
 
-## Reference
+## 参考
 
-### Document
+### ドキュメント
 
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
 
-### Article
+### 記事
 
 - [Integrate Next.js and Storybook automatically](https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/)
 - [Ignored Build Step](https://zenn.dev/bisque/scraps/50a51a28d6eb85)
 
-## Recommended
+## 推奨ライブラリ
 
 - [Zod](https://zod.dev/)
 - [React Hook Form](https://react-hook-form.com/)
@@ -73,6 +73,6 @@ npm run dev
 - [date-fns](https://date-fns.org/)
 - [SWR](https://github.com/vercel/swr)
 
-## License
+## ライセンス
 
 [MIT](https://opensource.org/licenses/MIT)
