@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.9.19](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.18...v1.9.19) (2023-04-16)
+
+
+### Bug Fixes
+
+* 25 推奨ライブラリにRecoilを追加 ([4cfea23](https://github.com/revoltage-inc/tmp-nextjs/commit/4cfea23295fc92c375b5290be02089194a4f15f0))
+* 625 READMEからアルファステージの記述を削除 ([665121e](https://github.com/revoltage-inc/tmp-nextjs/commit/665121efad2495dfe9e4fa66e848a43277d4210f))
+* 625 Vercel BotからPRにコメントがつかないように設定を追加 ([04a586c](https://github.com/revoltage-inc/tmp-nextjs/commit/04a586c2f953d049ee19475ef9333fa787c443eb))
+* 625 Vercelでのデプロイ方法を追記 ([9823d0a](https://github.com/revoltage-inc/tmp-nextjs/commit/9823d0a53d44e1a4f01d4df237431d57dc07e9fb))
+
 ## [1.9.18](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.17...v1.9.18) (2023-04-16)
 
 
