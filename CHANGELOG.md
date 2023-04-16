@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.1...v2.0.2) (2023-04-16)
+
+
+### Bug Fixes
+
+* 631 アップデート時にロックファイルのみ更新するように修正 ([5d7fe4b](https://github.com/revoltage-inc/tmp-nextjs/commit/5d7fe4b327b7e48be169df817b2a004cbf156949))
+
 ## [2.0.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.0...v2.0.1) (2023-04-16)
 
 
