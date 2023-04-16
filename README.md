@@ -1,7 +1,7 @@
 # tmp-nextjs
 
-このリポジトリは、Next.jsのテンプレートです。
-構成にはStorybookとTailwindCSSが含まれます。
+このリポジトリは、Next.jsのテンプレートです。  
+構成にはStorybookとTailwindCSSが含まれます。  
 
 > **Warning**  
 > このテンプレートは個人的なベストプラクティスに基づいて作成されたものです。  
