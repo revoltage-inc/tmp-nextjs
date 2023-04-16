@@ -20,9 +20,9 @@
 下記のコマンドで実行環境を作成します。  
 
 ```zsh
-volta install node@18.16.0 npm@9.5.1
+volta install node@18.16.0 npm@9.5.1 pnpm@8.2.0
 
-npm install
+pnpm install
 ```
 
 ### 環境変数の設定
