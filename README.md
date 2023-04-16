@@ -36,7 +36,7 @@ cp .env.template .env
 
 ## 使用方法
 
-Run develop server with following command.  
+下記コマンドでローカルサーバーを起動する。  
 
 ```zsh
 npm run dev
