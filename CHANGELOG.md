@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.9.16](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.15...v1.9.16) (2023-04-16)
+
+
+### Bug Fixes
+
+* 616 Headless UIとReact Iconsを削除 ([733aad9](https://github.com/revoltage-inc/tmp-nextjs/commit/733aad9480f802429590487151f371bafae96b3c))
+* 616 Node.jsとnpmのバージョンをアップデート ([b38597e](https://github.com/revoltage-inc/tmp-nextjs/commit/b38597efdcd010433aa7b7b34dc00bb8fdeaad21))
+* 616 READMEを日本語化 ([d98d2cc](https://github.com/revoltage-inc/tmp-nextjs/commit/d98d2ccbeed2c0d0e1b67d881c25ba26744dec0f))
+* 616 Storybookのautodocsをtrueに変更 ([ade85f8](https://github.com/revoltage-inc/tmp-nextjs/commit/ade85f8608c287df1ed8810058c47b85e4a6c5c9))
+* 616 Storybookのアップデートコマンドをリリースバージョンのみに修正 ([f390c40](https://github.com/revoltage-inc/tmp-nextjs/commit/f390c4059788502b0bd2d45d76c06823780368db))
+* 616 Storybookのアップデートコマンドをリリースバージョンのみに修正 ([6e9ec67](https://github.com/revoltage-inc/tmp-nextjs/commit/6e9ec6799448b17bbc1838dc1c03b53242f770c4))
+* 616 パッケージを更新 ([708a97d](https://github.com/revoltage-inc/tmp-nextjs/commit/708a97da8049816de96496294b8581c25623e504))
+* 616 不要なファイルを削除 ([806308f](https://github.com/revoltage-inc/tmp-nextjs/commit/806308fda784246bf360eb60753b4fae49234802))
+* 616 日本語化の漏れ箇所を修正 ([884d2c0](https://github.com/revoltage-inc/tmp-nextjs/commit/884d2c0d2b5dadeaa92b1e804ec49f5d7805fbce))
+
 ## [1.9.15](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.14...v1.9.15) (2023-03-31)
 
 
