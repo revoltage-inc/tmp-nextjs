@@ -42,6 +42,18 @@ cp .env.template .env
 npm run dev
 ```
 
+## デプロイ
+
+Vercelでデプロイする場合は[こちらの記事](https://vercel.com/docs/concepts/deployments/overview)などを参考にデプロイを行う。  
+
+デプロイにVercel Botを使用していると、デフォルトではコミットのたびにデプロイが発生するため、  
+Git > Ignored Build Stepで下記のコマンドを指定することで、  
+mainなど特定のブランチにマージされた場合のみデプロイするように設定できる。  
+
+```zsh
+bash scripts/vercel-ignore-build-step.sh
+```
+
 ## スクリプト
 
 | スクリプト | 説明 |
@@ -59,6 +71,7 @@ npm run dev
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
+- [Vercel](https://vercel.com/)
 
 ### 記事
 
