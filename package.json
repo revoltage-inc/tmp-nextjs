@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint && stylelint src/assets/css/**/*.css --fix --config stylelint.config.js",
     "sb": "npx sb dev -p 6006",
-    "update": "pnpm -r update --latest --depth 100 && npx sb upgrade -s"
+    "update": "pnpm -r update --latest --depth 100 && npx sb upgrade -s && pnpm install"
   },
   "dependencies": {
     "next": "^13.3.0",
