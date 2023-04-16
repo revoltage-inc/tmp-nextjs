@@ -20,7 +20,7 @@
 下記のコマンドで実行環境を作成します。  
 
 ```zsh
-volta install node@18.14.2 npm@9.5.0
+volta install node@18.16.0 npm@9.5.1
 
 npm install
 ```
@@ -55,6 +55,7 @@ npm run dev
 
 ### ドキュメント
 
+- [Node.js](https://nodejs.org/ja/download/releases)
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
