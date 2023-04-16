@@ -76,6 +76,7 @@ npm run dev
 - [date-fns](https://date-fns.org/)
 - [SWR](https://github.com/vercel/swr)
 - [NextAuth.js](https://next-auth.js.org/)
+- [Recoil](https://recoiljs.org/)
 
 ## ライセンス
 
