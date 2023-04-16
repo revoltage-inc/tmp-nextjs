@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.0...v2.0.1) (2023-04-16)
+
+
+### Bug Fixes
+
+* 628 アップデート後にインストールし直すようにコマンドを修正 ([f512300](https://github.com/revoltage-inc/tmp-nextjs/commit/f5123000a2052896df43d5e6d351266dad5c7b4e))
+
 ## [1.9.19](https://github.com/revoltage-inc/tmp-nextjs/compare/v1.9.18...v1.9.19) (2023-04-16)
 
 
