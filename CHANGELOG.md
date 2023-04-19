@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.2...v2.0.3) (2023-04-19)
+
+
+### Bug Fixes
+
+* 644 Dependabotの更新間隔を日本時間の毎週日曜日午前4時に修正 ([db572ae](https://github.com/revoltage-inc/tmp-nextjs/commit/db572aef5fb94e39845087fd223fbeb5ec09ca3f))
+* 644 パッケージを更新 ([028839d](https://github.com/revoltage-inc/tmp-nextjs/commit/028839d68dc7fb9a500f4e95f35659f46cf3d545))
+
 ## [2.0.2](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.1...v2.0.2) (2023-04-16)
 
 
