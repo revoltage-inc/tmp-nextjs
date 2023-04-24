@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.3...v2.0.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* 653 cssのネストが効かない問題を修正 ([ddf9f0a](https://github.com/revoltage-inc/tmp-nextjs/commit/ddf9f0abdc7617fc8847e467afaf265afb74e987))
+* 653 forceSwcTransformsオプションを削除 ([5864d16](https://github.com/revoltage-inc/tmp-nextjs/commit/5864d1629a9334feae2a35c2534d82698a232061))
+* 653 パッケージを更新 ([588776f](https://github.com/revoltage-inc/tmp-nextjs/commit/588776ff25f2a1a0b4e0e446c2eda975550e0a65))
+* 653 フォーマット ([e836862](https://github.com/revoltage-inc/tmp-nextjs/commit/e8368623eac932b7ee4e3e6fedd4d3421fda4068))
+
 ## [2.0.3](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.2...v2.0.3) (2023-04-19)
 
 
