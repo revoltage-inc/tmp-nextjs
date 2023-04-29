@@ -23,7 +23,7 @@
     "@storybook/addon-links": "^7.0.7",
     "@storybook/addon-viewport": "^7.0.6",
     "@storybook/blocks": "^7.0.6",
-    "@storybook/nextjs": "^7.0.6",
+    "@storybook/nextjs": "^7.0.7",
     "@storybook/react": "^7.0.6",
     "@storybook/testing-library": "^0.1.0",
     "@svgr/webpack": "^7.0.0",
