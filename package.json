@@ -13,7 +13,7 @@
     "update": "pnpm -r update --latest --depth 100 && npx sb upgrade -s && pnpm install --lockfile-only && npm install --package-lock-only"
   },
   "dependencies": {
-    "next": "^13.3.2",
+    "next": "^13.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
