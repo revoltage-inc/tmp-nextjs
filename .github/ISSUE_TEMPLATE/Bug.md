@@ -1,32 +1,33 @@
 ---
-name: "🐞 Bug"
-about: Create new bug report
+name: "🐞 バグ"
+about: バグレポートを新規作成
 title: ""
 labels: bug
 ---
 
-## 🐞 Bug Report
+## 🐞 バグレポート
 
-### Bug content <!-- [required] -->
+### バグの内容 <!-- [必須] -->
 
 <!--
-Describe bug content here.
+ここにバグの内容を記載する。
 -->
 
-### How to reproduce bug <!-- [required] -->
+### バグの再現方法 <!-- [必須] -->
 
 <!--
-Describe how to reproduce bug here in text, and if possible, attach images, videos, etc.
+ここにバグの再現方法を記載する。
+可能であればテキストベースだけでなく、画像や動画、コードのホスティングサービスのリンクなどを添付する。
 -->
 
-### Environment information <!-- [optional] -->
+### 環境情報 <!-- [任意] -->
 
 <!--
-Describe environment information such as OS version you are using here.
+ここにNode.jsやOSのバージョンなどの環境情報を記載する。
 -->
 
-### How to fix bug <!-- [optional] -->
+### バグの修正方法 <!-- [任意] -->
 
 <!--
-If you know how to fix the bug please write it here.
+ここにバグの修正方法が判明しているのであれば記載する。
 -->

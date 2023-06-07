@@ -1,14 +1,14 @@
 ---
-name: "❓ Question"
-about: Create new question
+name: "❓ 質問"
+about: 質問を新規作成
 title: ""
 labels: question
 ---
 
-## ❓ Question
+## ❓ 質問
 
-### Question content <!-- [required] -->
+### 質問内容 <!-- [必須] -->
 
 <!--
-Describe question content here.
+ここに質問内容を記載する。
 -->
