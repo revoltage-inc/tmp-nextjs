@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.4...v2.0.5) (2023-06-07)
+
+
+### Bug Fixes
+
+* 697 issueテンプレートを日本語化 ([aacc46a](https://github.com/revoltage-inc/tmp-nextjs/commit/aacc46a255c33a1206eefd6483735d5b0c955a6f))
+* 697 pnpm-lock.jsonを検索から除外するように設定 ([6cfd740](https://github.com/revoltage-inc/tmp-nextjs/commit/6cfd740adbc23e9aa7a45956afb71d2b6bac23de))
+* 697 pnpmをバージョンアップ ([e8fef63](https://github.com/revoltage-inc/tmp-nextjs/commit/e8fef63f95e85a44ee95a18af48b253d50275c65))
+* 697 パッケージを更新 ([0b3684c](https://github.com/revoltage-inc/tmp-nextjs/commit/0b3684c1fc3b30246d53bcf4cb036bb4441edf22))
+
 ## [2.0.4](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.3...v2.0.4) (2023-04-24)
 
 
