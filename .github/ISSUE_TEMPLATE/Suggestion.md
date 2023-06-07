@@ -1,14 +1,14 @@
 ---
-name: "🚀 Suggestion"
-about: Create new Suggestion
+name: "✋ 提案"
+about: 提案を新規作成
 title: ""
 labels: suggestion
 ---
 
-## 🚀 Suggestion
+## ✋ 提案
 
-### Suggestion content <!-- [required] -->
+### 提案内容 <!-- [必須] -->
 
 <!--
-Describe suggestion content here.
+ここに提案内容を記載する。
 -->
