@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.5...v2.0.6) (2023-06-13)
+
+
+### Bug Fixes
+
+* 700 pnpmをアップデート ([a6d5b83](https://github.com/revoltage-inc/tmp-nextjs/commit/a6d5b83c56b4c220c65217d5324bad899508ad3c))
+* 700 READMEのnpmの記述箇所をpnpmにリネーム ([5cbbe4b](https://github.com/revoltage-inc/tmp-nextjs/commit/5cbbe4b94bf31efdbd70046912b55e788c281330))
+* 700 パッケージを更新 ([7bd4e10](https://github.com/revoltage-inc/tmp-nextjs/commit/7bd4e10d8fc493c38bed86f772a90feb1478be63))
+
 ## [2.0.5](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.4...v2.0.5) (2023-06-07)
 
 
