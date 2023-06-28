@@ -60,9 +60,9 @@
     "last 2 versions"
   ],
   "volta": {
-    "node": "18.16.0",
+    "node": "18.16.1",
     "npm": "9.5.1",
-    "pnpm": "8.6.2"
+    "pnpm": "8.6.5"
   },
   "engines": {
     "node": ">=18",
