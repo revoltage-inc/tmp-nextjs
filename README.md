@@ -69,13 +69,20 @@ bash scripts/vercel-ignore-build-step.sh
 
 - [Node.js](https://nodejs.org/ja/download/releases)
 - [Next.js](https://nextjs.org/)
+- [Turbopack](https://turbo.build/pack)
 - [Storybook](https://storybook.js.org/)
 - [TailwindCSS](https://tailwindui.com/)
 - [Vercel](https://vercel.com/)
 
 ### 記事
 
+### Storybook
+
 - [Integrate Next.js and Storybook automatically](https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/)
+- [Integrate Next.js and Storybook](https://storybook.js.org/recipes/next)
+
+### Vercel
+
 - [Ignored Build Step](https://zenn.dev/bisque/scraps/50a51a28d6eb85)
 
 ## 推奨ライブラリ
