@@ -23,7 +23,7 @@ const config: StorybookConfig = {
     if (config.module?.rules) {
       config.module.rules = config.module.rules.map((rule) => {
         // HACK: Override SVG loader to not use file-loader
-        if (rule !== '...' && rule.test?.toString().indexOf('svg') !== -1) {
+        if (rule && rule !== '...' && rule.test?.toString().indexOf('svg') !== -1) {
           rule.exclude = /\.svg$/
         }
         return rule
