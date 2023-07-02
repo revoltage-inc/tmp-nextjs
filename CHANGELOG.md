@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.7](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.6...v2.0.7) (2023-07-02)
+
+
+### Bug Fixes
+
+* 703 nodeとpnpmをバージョンアップ ([ebd35b5](https://github.com/revoltage-inc/tmp-nextjs/commit/ebd35b58d4732aa926dc41c160047c2bb628ef56))
+* 703 voltaのバージョン管理からpnpmを削除 ([8e20458](https://github.com/revoltage-inc/tmp-nextjs/commit/8e20458343250c370f9d0fd82bdd713c89d3b5b0))
+* 703 パッケージを更新 ([a6168c3](https://github.com/revoltage-inc/tmp-nextjs/commit/a6168c38840ddbe23176e375e814ef83a2be2929))
+* 703 パッケージを更新 ([44614c5](https://github.com/revoltage-inc/tmp-nextjs/commit/44614c588ad6316d949e61861eb7e2787ccb8f9a))
+* 703 パッケージを更新 ([5c4cdc3](https://github.com/revoltage-inc/tmp-nextjs/commit/5c4cdc3bdd495bbf4e764bae72493fce78aa99e9))
+* 703 参考リンクを追加 ([9c16f7b](https://github.com/revoltage-inc/tmp-nextjs/commit/9c16f7be7e2e7b3e17ae4f96cb20cd91b6ba7cd2))
+* 703 型を修正 ([01d567f](https://github.com/revoltage-inc/tmp-nextjs/commit/01d567f265f0f8f1ffa943e5228f21c0bd8b84bd))
+
 ## [2.0.6](https://github.com/revoltage-inc/tmp-nextjs/compare/v2.0.5...v2.0.6) (2023-06-13)
 
 
